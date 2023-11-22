@@ -1,0 +1,4 @@
+ros2 launch moveit2_tutorials demo.launch.py rviz_config:=panda_moveit_config_demo_empty.rviz
+
+
+ros2 launch tm_moveit_cpp_demo tm5-900_run_moveit_cpp.launch.py

@@ -1,0 +1,4 @@
+source;share/mpu_cpp/local_setup.bash
+source;share/mpu_cpp/local_setup.dsv
+source;share/mpu_cpp/local_setup.sh
+source;share/mpu_cpp/local_setup.zsh

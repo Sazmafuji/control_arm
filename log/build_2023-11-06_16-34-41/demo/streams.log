@@ -1,0 +1,99 @@
+[0.584s] Invoking command in '/home/sazma/ws_future/build/demo': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_future/install/moveit2_tutorials:/home/sazma/ws_future/install/moveit_visual_tools:/home/sazma/ws_future/install/rviz_visual_tools:/home/sazma/ws_future/install/moveit_task_constructor_visualization:/home/sazma/ws_future/install/moveit_task_constructor_demo:/home/sazma/ws_future/install/moveit_task_constructor_capabilities:/home/sazma/ws_future/install/moveit_task_constructor_core:/home/sazma/ws_future/install/rviz_marker_tools:/home/sazma/ws_future/install/pilz_industrial_motion_planner_testutils:/home/sazma/ws_future/install/moveit_runtime:/home/sazma/ws_future/install/moveit:/home/sazma/ws_future/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/moveit_planners:/home/sazma/ws_future/install/pilz_industrial_motion_planner:/home/sazma/ws_future/install/pick_ik:/home/sazma/ws_future/install/moveit_task_constructor_msgs:/home/sazma/ws_future/install/moveit_ros_control_interface:/home/sazma/ws_future/install/moveit_plugins:/home/sazma/ws_future/install/moveit_simple_controller_manager:/home/sazma/ws_future/install/moveit_setup_assistant:/home/sazma/ws_future/install/moveit_setup_srdf_plugins:/home/sazma/ws_future/install/moveit_setup_core_plugins:/home/sazma/ws_future/install/moveit_setup_controllers:/home/sazma/ws_future/install/moveit_setup_app_plugins:/home/sazma/ws_future/install/moveit_setup_framework:/home/sazma/ws_future/install/moveit_servo:/home/sazma/ws_future/install/moveit_ros:/home/sazma/ws_future/install/moveit_ros_visualization:/home/sazma/ws_future/install/moveit_py:/home/sazma/ws_future/install/moveit_hybrid_planning:/home/sazma/ws_future/install/moveit_ros_planning_interface:/home/sazma/ws_future/install/moveit_ros_benchmarks:/home/sazma/ws_future/install/moveit_ros_warehouse:/home/sazma/ws_future/install/moveit_ros_robot_interaction:/home/sazma/ws_future/install/moveit_ros_perception:/home/sazma/ws_future/install/moveit_resources_prbt_pg70_support:/home/sazma/ws_future/install/moveit_resources_prbt_moveit_config:/home/sazma/ws_future/install/moveit_ros_move_group:/home/sazma/ws_future/install/moveit_planners_ompl:/home/sazma/ws_future/install/moveit_kinematics:/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_resources_prbt_support:/home/sazma/ws_future/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sazma/ws_future/install/moveit_resources:/home/sazma/ws_future/install/moveit_resources_pr2_description:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/dual_arm_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_planners_stomp:/home/sazma/ws_future/install/moveit_planners_chomp:/home/sazma/ws_future/install/moveit_chomp_optimizer_adapter:/home/sazma/ws_future/install/chomp_motion_planner:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/kortex_bringup:/home/sazma/ws_future/install/kortex_driver:/home/sazma/ws_future/install/kortex_description:/home/sazma/ws_future/install/kortex_api:/home/sazma/tm5_900_ws/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/demo -- -j12 -l12
+[0.605s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.756s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.786s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.788s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.795s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.914s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.923s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.116s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.335s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.478s] -- Found tm_msgs: 1.1.2 (/home/sazma/ws_future/install/tm_msgs/share/tm_msgs/cmake)
+[1.521s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.752s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.755s] -- Configured cppcheck include dirs: /home/sazma/ws_future/src/tmr_ros2/demo/include
+[1.755s] -- Configured cppcheck exclude dirs and/or files: 
+[1.755s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.755s] -- Configured cpplint exclude dirs and/or files: 
+[1.756s] -- Added test 'lint_cmake' to check CMake code style
+[1.757s] -- Added test 'uncrustify' to check C / C++ code style
+[1.758s] -- Configured uncrustify additional arguments: 
+[1.758s] -- Added test 'xmllint' to check XML markup files
+[1.759s] -- Configuring done
+[1.825s] -- Generating done
+[1.828s] -- Build files have been written to: /home/sazma/ws_future/build/demo
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target demo_ask_sta[0m
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target demo_set_event[0m
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target demo_keyboard_control[0m
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target demo_connect_tm[0m
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target demo_set_io[0m
+[1.872s] [35m[1mConsolidate compiler generated dependencies of target demo_send_script[0m
+[1.874s] [35m[1mConsolidate compiler generated dependencies of target demo_write_item[0m
+[1.877s] [35m[1mConsolidate compiler generated dependencies of target demo_get_torque_feedback[0m
+[1.881s] [35m[1mConsolidate compiler generated dependencies of target demo_set_positions[0m
+[1.882s] [35m[1mConsolidate compiler generated dependencies of target demo_get_feedback[0m
+[1.892s] [35m[1mConsolidate compiler generated dependencies of target demo_ask_item[0m
+[1.898s] [  3%] [32mBuilding CXX object CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o[0m
+[1.901s] [ 15%] [32mBuilding CXX object CMakeFiles/demo_keyboard_control.dir/src/demo_keyboard_control.cpp.o[0m
+[1.902s] [ 18%] Built target demo_send_script
+[1.902s] [ 18%] Built target demo_ask_sta
+[1.904s] [ 25%] Built target demo_connect_tm
+[1.912s] [ 31%] Built target demo_set_io
+[1.913s] [ 37%] Built target demo_set_event
+[1.914s] [ 43%] Built target demo_get_torque_feedback
+[1.914s] [ 50%] Built target demo_write_item
+[1.915s] [ 59%] Built target demo_set_positions
+[1.916s] [ 62%] Built target demo_get_feedback
+[1.922s] [35m[1mConsolidate compiler generated dependencies of target demo_get_sct_response[0m
+[1.923s] [ 68%] Built target demo_ask_item
+[1.923s] [35m[1mConsolidate compiler generated dependencies of target demo_get_sta_response[0m
+[1.928s] [35m[1mConsolidate compiler generated dependencies of target demo_get_svr_response[0m
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target demo_leave_listen_node[0m
+[1.954s] [ 78%] Built target demo_get_sta_response
+[1.954s] [ 81%] Built target demo_get_sct_response
+[1.955s] [ 87%] Built target demo_get_svr_response
+[1.955s] [ 93%] Built target demo_leave_listen_node
+[4.757s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.757s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitscr[m[K’ was not declared in this scope
+[4.758s]    57 |     [01;31m[Kinitscr[m[K();   // Initialize ncurses
+[4.758s]       |     [01;31m[K^~~~~~~[m[K
+[4.758s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimeout[m[K’ was not declared in this scope
+[4.759s]    58 |     [01;31m[Ktimeout[m[K(100); // Set a timeout for the getch function so it doesn't block indefinitely
+[4.759s]       |     [01;31m[K^~~~~~~[m[K
+[4.759s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:58:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[4.760s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[4.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.760s]                  from [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:9[m[K:
+[4.760s] [01m[K/usr/include/c++/11/future:176:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::future_status::timeout[m[K’
+[4.760s]   176 |     [01;36m[Ktimeout[m[K,
+[4.761s]       |     [01;36m[K^~~~~~~[m[K
+[4.761s] In file included from [01m[K/usr/include/c++/11/future:39[m[K,
+[4.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[4.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.762s]                  from [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:9[m[K:
+[4.762s] [01m[K/usr/include/c++/11/condition_variable:65:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::cv_status::timeout[m[K’
+[4.762s]    65 |   enum class cv_status { no_timeout, [01;36m[Ktimeout[m[K };
+[4.762s]       |                                      [01;36m[K^~~~~~~[m[K
+[4.763s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knoecho[m[K’ was not declared in this scope
+[4.763s]    59 |     [01;31m[Knoecho[m[K();    // Don't display pressed keys
+[4.763s]       |     [01;31m[K^~~~~~[m[K
+[4.768s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcbreak[m[K’ was not declared in this scope
+[4.768s]    60 |     [01;31m[Kcbreak[m[K();    // Disable line buffering
+[4.768s]       |     [01;31m[K^~~~~~[m[K
+[4.772s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:64:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kgetch[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetc[m[K’?
+[4.772s]    64 |         int ch = [01;31m[Kgetch[m[K();
+[4.772s]       |                  [01;31m[K^~~~~[m[K
+[4.772s]       |                  [32m[Kgetc[m[K
+[4.780s] [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:91:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kendwin[m[K’ was not declared in this scope
+[4.780s]    91 |     [01;31m[Kendwin[m[K();  // End ncurses mode
+[4.780s]       |     [01;31m[K^~~~~~[m[K
+[5.542s] gmake[2]: *** [CMakeFiles/demo_keycontrol.dir/build.make:76: CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o] Error 1
+[5.542s] gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/demo_keycontrol.dir/all] Error 2
+[5.542s] gmake[1]: *** Waiting for unfinished jobs....
+[6.170s] [ 96%] [32m[1mLinking CXX executable demo_keyboard_control[0m
+[6.336s] [ 96%] Built target demo_keyboard_control
+[6.337s] gmake: *** [Makefile:146: all] Error 2
+[6.837s] Invoked command in '/home/sazma/ws_future/build/demo' returned '2': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_future/install/moveit2_tutorials:/home/sazma/ws_future/install/moveit_visual_tools:/home/sazma/ws_future/install/rviz_visual_tools:/home/sazma/ws_future/install/moveit_task_constructor_visualization:/home/sazma/ws_future/install/moveit_task_constructor_demo:/home/sazma/ws_future/install/moveit_task_constructor_capabilities:/home/sazma/ws_future/install/moveit_task_constructor_core:/home/sazma/ws_future/install/rviz_marker_tools:/home/sazma/ws_future/install/pilz_industrial_motion_planner_testutils:/home/sazma/ws_future/install/moveit_runtime:/home/sazma/ws_future/install/moveit:/home/sazma/ws_future/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/moveit_planners:/home/sazma/ws_future/install/pilz_industrial_motion_planner:/home/sazma/ws_future/install/pick_ik:/home/sazma/ws_future/install/moveit_task_constructor_msgs:/home/sazma/ws_future/install/moveit_ros_control_interface:/home/sazma/ws_future/install/moveit_plugins:/home/sazma/ws_future/install/moveit_simple_controller_manager:/home/sazma/ws_future/install/moveit_setup_assistant:/home/sazma/ws_future/install/moveit_setup_srdf_plugins:/home/sazma/ws_future/install/moveit_setup_core_plugins:/home/sazma/ws_future/install/moveit_setup_controllers:/home/sazma/ws_future/install/moveit_setup_app_plugins:/home/sazma/ws_future/install/moveit_setup_framework:/home/sazma/ws_future/install/moveit_servo:/home/sazma/ws_future/install/moveit_ros:/home/sazma/ws_future/install/moveit_ros_visualization:/home/sazma/ws_future/install/moveit_py:/home/sazma/ws_future/install/moveit_hybrid_planning:/home/sazma/ws_future/install/moveit_ros_planning_interface:/home/sazma/ws_future/install/moveit_ros_benchmarks:/home/sazma/ws_future/install/moveit_ros_warehouse:/home/sazma/ws_future/install/moveit_ros_robot_interaction:/home/sazma/ws_future/install/moveit_ros_perception:/home/sazma/ws_future/install/moveit_resources_prbt_pg70_support:/home/sazma/ws_future/install/moveit_resources_prbt_moveit_config:/home/sazma/ws_future/install/moveit_ros_move_group:/home/sazma/ws_future/install/moveit_planners_ompl:/home/sazma/ws_future/install/moveit_kinematics:/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_resources_prbt_support:/home/sazma/ws_future/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sazma/ws_future/install/moveit_resources:/home/sazma/ws_future/install/moveit_resources_pr2_description:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/dual_arm_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_planners_stomp:/home/sazma/ws_future/install/moveit_planners_chomp:/home/sazma/ws_future/install/moveit_chomp_optimizer_adapter:/home/sazma/ws_future/install/chomp_motion_planner:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/kortex_bringup:/home/sazma/ws_future/install/kortex_driver:/home/sazma/ws_future/install/kortex_description:/home/sazma/ws_future/install/kortex_api:/home/sazma/tm5_900_ws/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/demo -- -j12 -l12

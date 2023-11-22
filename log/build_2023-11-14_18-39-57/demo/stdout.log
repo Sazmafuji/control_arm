@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_get_and_control[0m
+[ 47%] Built target listener
+[ 47%] Built target demo_send_script
+[ 50%] Built target demo_ask_item
+[ 52%] Built target demo_set_io
+[ 47%] Built target demo_set_positions
+[ 61%] Built target demo_ask_sta
+[ 61%] Built target demo_set_event
+[ 47%] Built target demo_connect_tm
+[ 61%] Built target demo_keycontrol
+[ 61%] Built target demo_keyboard_control
+[ 61%] Built target demo_write_item
+[ 63%] [32mBuilding CXX object CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o[0m
+[ 80%] Built target demo_get_sct_response
+[ 80%] Built target demo_leave_listen_node
+[ 80%] Built target demo_get_torque_feedback
+[ 86%] Built target demo_get_feedback
+[ 91%] Built target demo_get_sta_response
+[ 97%] Built target demo_get_svr_response

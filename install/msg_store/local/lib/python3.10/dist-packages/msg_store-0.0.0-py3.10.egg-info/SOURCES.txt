@@ -1,0 +1,8 @@
+setup.py
+msg_store/__init__.py
+msg_store.egg-info/PKG-INFO
+msg_store.egg-info/SOURCES.txt
+msg_store.egg-info/dependency_links.txt
+msg_store.egg-info/top_level.txt
+msg_store/msg/__init__.py
+msg_store/msg/_mpu.py

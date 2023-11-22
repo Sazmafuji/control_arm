@@ -1,0 +1,36 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:2[m[K:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Mpu&) const[m[K’:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:21:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.msg_store::msg::Mpu_<std::allocator<void> >::dx[m[K’, which is of non-class type ‘[01m[Kconst _dx_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   21 |                     msg.dx.[01;31m[Kc_str[m[K(), msg->dy, msg->dz, msg->dtx, msg->dty, msg->dtz);
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:21:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Mpu[m[K’ {aka ‘[01m[Kconst msg_store::msg::Mpu_<std::allocator<void> >[m[K’}
+   21 |                     msg.dx.c_str(), msg[01;31m[K->[m[Kdy, msg->dz, msg->dtx, msg->dty, msg->dtz);
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:21:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Mpu[m[K’ {aka ‘[01m[Kconst msg_store::msg::Mpu_<std::allocator<void> >[m[K’}
+   21 |                     msg.dx.c_str(), msg->dy, msg[01;31m[K->[m[Kdz, msg->dtx, msg->dty, msg->dtz);
+      |                                                 [01;31m[K^~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:21:58:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Mpu[m[K’ {aka ‘[01m[Kconst msg_store::msg::Mpu_<std::allocator<void> >[m[K’}
+   21 |                     msg.dx.c_str(), msg->dy, msg->dz, msg[01;31m[K->[m[Kdtx, msg->dty, msg->dtz);
+      |                                                          [01;31m[K^~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:21:68:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Mpu[m[K’ {aka ‘[01m[Kconst msg_store::msg::Mpu_<std::allocator<void> >[m[K’}
+   21 |              msg.dx.c_str(), msg->dy, msg->dz, msg->dtx, msg[01;31m[K->[m[Kdty, msg->dtz);
+      |                                                             [01;31m[K^~[m[K
+
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:21:78:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Mpu[m[K’ {aka ‘[01m[Kconst msg_store::msg::Mpu_<std::allocator<void> >[m[K’}
+   21 |        msg.dx.c_str(), msg->dy, msg->dz, msg->dtx, msg->dty, msg[01;31m[K->[m[Kdtz);
+      |                                                                 [01;31m[K^~[m[K
+
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/demo_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,16 @@
+{
+  "package_name": "moveit_task_constructor_msgs",
+  "non_idl_tuples": [
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/Property.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/Solution.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/SolutionInfo.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/StageDescription.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/StageStatistics.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/SubSolution.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/SubTrajectory.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/TaskDescription.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:msg/TaskStatistics.msg",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:srv/GetSolution.srv",
+    "/home/sazma/ws_future/src/moveit_task_constructor/msgs:action/ExecuteTaskSolution.action"
+  ]
+}

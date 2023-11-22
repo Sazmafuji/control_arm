@@ -1,0 +1,7 @@
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kncurses.h: No such file or directory
+    6 | #include [01;31m[K<ncurses.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo_keycontrol.dir/build.make:76: CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/demo_keycontrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

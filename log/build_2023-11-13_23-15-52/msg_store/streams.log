@@ -1,0 +1,63 @@
+[0.095s] Invoking command in '/home/sazma/ws_future/build/msg_store': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/msg_store -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/msg_store
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.209s] -- Detecting C compiler ABI info
+[0.284s] -- Detecting C compiler ABI info - done
+[0.292s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.293s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.296s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.409s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.409s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.417s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.786s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.946s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.033s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.048s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.066s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.271s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.459s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.459s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.459s]   msg_store --arguments-file
+[1.459s]   /home/sazma/ws_future/build/msg_store/rosidl_adapter__arguments__msg_store.json
+[1.459s]   --output-dir /home/sazma/ws_future/build/msg_store/rosidl_adapter/msg_store
+[1.459s]   --output-file
+[1.459s]   /home/sazma/ws_future/build/msg_store/rosidl_adapter/msg_store.idls)
+[1.459s]   returned error code 1:
+[1.459s] 
+[1.459s]   Traceback (most recent call last):
+[1.459s] 
+[1.459s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.459s]       return _run_code(code, main_globals, None,
+[1.460s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.460s]       exec(code, run_globals)
+[1.460s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.460s]       sys.exit(main())
+[1.460s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.460s]       abs_idl_file = convert_to_idl(
+[1.460s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.460s]       return convert_msg_to_idl(
+[1.460s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.460s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.460s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[1.460s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.460s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[1.460s]       self.base_type = BaseType(
+[1.460s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[1.460s]       raise InvalidResourceName(
+[1.460s] 
+[1.460s]   rosidl_adapter.parser.InvalidResourceName: 'mpu_6050' is an invalid message
+[1.461s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.461s] 
+[1.461s] Call Stack (most recent call first):
+[1.461s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.461s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[1.461s] 
+[1.461s] [0m
+[1.461s] -- Configuring incomplete, errors occurred!
+[1.461s] See also "/home/sazma/ws_future/build/msg_store/CMakeFiles/CMakeOutput.log".
+[1.465s] Invoked command in '/home/sazma/ws_future/build/msg_store' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/msg_store -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/msg_store

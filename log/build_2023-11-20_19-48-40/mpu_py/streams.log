@@ -1,0 +1,45 @@
+[0.909s] Invoking command in '/home/sazma/ws_future/src/mpu_6050/mpu_py': PYTHONPATH=/home/sazma/ws_future/build/mpu_py/prefix_override:/home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpu_py build --build-base /home/sazma/ws_future/build/mpu_py/build install --record /home/sazma/ws_future/build/mpu_py/install.log --single-version-externally-managed
+[1.145s] running egg_info
+[1.162s] writing ../../../build/mpu_py/mpu_py.egg-info/PKG-INFO
+[1.162s] writing dependency_links to ../../../build/mpu_py/mpu_py.egg-info/dependency_links.txt
+[1.163s] writing entry points to ../../../build/mpu_py/mpu_py.egg-info/entry_points.txt
+[1.163s] writing requirements to ../../../build/mpu_py/mpu_py.egg-info/requires.txt
+[1.163s] writing top-level names to ../../../build/mpu_py/mpu_py.egg-info/top_level.txt
+[1.197s] reading manifest file '../../../build/mpu_py/mpu_py.egg-info/SOURCES.txt'
+[1.198s] writing manifest file '../../../build/mpu_py/mpu_py.egg-info/SOURCES.txt'
+[1.198s] running build
+[1.199s] running build_py
+[1.199s] running install
+[1.199s] /home/sazma/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.199s] !!
+[1.199s] 
+[1.199s]         ********************************************************************************
+[1.199s]         Please avoid running ``setup.py`` directly.
+[1.200s]         Instead, use pypa/build, pypa/installer or other
+[1.200s]         standards-based tools.
+[1.200s] 
+[1.200s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.200s]         ********************************************************************************
+[1.200s] 
+[1.200s] !!
+[1.200s]   self.initialize_options()
+[1.205s] running install_lib
+[1.222s] creating /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+[1.222s] copying /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py/__init__.py -> /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+[1.223s] copying /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py/publisher_node.py -> /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+[1.223s] byte-compiling /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py/__init__.py to __init__.cpython-310.pyc
+[1.223s] byte-compiling /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py/publisher_node.py to publisher_node.cpython-310.pyc
+[1.224s] running install_data
+[1.241s] creating /home/sazma/ws_future/install/mpu_py/share
+[1.241s] creating /home/sazma/ws_future/install/mpu_py/share/ament_index
+[1.242s] creating /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index
+[1.242s] creating /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index/packages
+[1.242s] copying resource/mpu_py -> /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index/packages
+[1.242s] creating /home/sazma/ws_future/install/mpu_py/share/mpu_py
+[1.242s] copying package.xml -> /home/sazma/ws_future/install/mpu_py/share/mpu_py
+[1.242s] running install_egg_info
+[1.260s] Copying ../../../build/mpu_py/mpu_py.egg-info to /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py-0.0.0-py3.10.egg-info
+[1.261s] running install_scripts
+[1.410s] Installing publisher_node script to /home/sazma/ws_future/install/mpu_py/lib/mpu_py
+[1.410s] writing list of installed files to '/home/sazma/ws_future/build/mpu_py/install.log'
+[1.433s] Invoked command in '/home/sazma/ws_future/src/mpu_6050/mpu_py' returned '0': PYTHONPATH=/home/sazma/ws_future/build/mpu_py/prefix_override:/home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpu_py build --build-base /home/sazma/ws_future/build/mpu_py/build install --record /home/sazma/ws_future/build/mpu_py/install.log --single-version-externally-managed

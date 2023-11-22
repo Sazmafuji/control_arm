@@ -1,0 +1,105 @@
+#include "rclcpp/rclcpp.hpp"
+#include "tm_msgs/srv/send_script.hpp"
+#include <chrono>
+#include <cstdlib>
+#include <memory>
+
+#include <ncurses.h>
+#include <termios.h>
+#include <unistd.h>
+
+using namespace std::chrono_literals;
+
+bool send_cmd(std::string cmd, std::shared_ptr<rclcpp::Node> node, rclcpp::Client<tm_msgs::srv::SendScript>::SharedPtr client){
+  auto request = std::make_shared<tm_msgs::srv::SendScript::Request>();
+  request->id = "demo";
+  request->script = cmd;
+
+  while (!client->wait_for_service(1s)) {
+    if (!rclcpp::ok()) {
+      RCLCPP_ERROR_STREAM(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
+      return false;
+    }
+    RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
+  }
+
+  auto result = client->async_send_request(request);
+  // Wait for the result.
+  if (rclcpp::spin_until_future_complete(node, result) ==
+    rclcpp::FutureReturnCode::SUCCESS)
+  {
+    if(result.get()->ok){
+      RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"),"OK");
+    } else{
+      RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"),"not OK");
+    }
+
+  } else {
+    RCLCPP_ERROR_STREAM(rclcpp::get_logger("rclcpp"), "Failed to call service");
+  }
+  return true;
+}
+
+int main(int argc, char **argv)
+{
+    rclcpp::init(argc, argv);
+
+    std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("demo_send_script");
+    rclcpp::Client<tm_msgs::srv::SendScript>::SharedPtr client =
+        node->create_client<tm_msgs::srv::SendScript>("send_script");
+    
+    initscr();   // Initialize ncurses
+    timeout(10); // Set a timeout for the getch function so it doesn't block indefinitely
+    noecho();    // Don't display pressed keys
+    cbreak();    // Disable line buffering
+
+    rclcpp::Rate loop_rate(10);
+    int i = 0;
+    std::string last_cmd="";
+    while (rclcpp::ok())
+    {
+        i++;
+        int ch = getch();
+        std::string cmd="";
+        switch (ch)
+        {
+            case 'w':
+                cmd = "Move_Line(\"CAP\",-10,0,0,0,0,0,1000,200,0,false)";
+                break;
+            case 'a':
+                cmd = "Move_Line(\"CAP\",0,-10,0,0,0,0,1000,200,0,false)";
+                break;
+            case 's':
+                cmd = "Move_Line(\"CAP\",10,0,0,0,0,0,1000,200,0,false)";
+                break;
+            case 'd':
+                cmd = "Move_Line(\"CAP\",0,10,0,0,0,0,1000,200,0,false)";
+                break;
+            case ' ':
+                cmd = "Move_Line(\"CAP\",0,0,10,0,0,0,1000,200,0,false)";
+                break;
+            case 'x':
+                cmd = "Move_Line(\"CAP\",0,0,-10,0,0,0,1000,200,0,false)";
+                break;
+            case 'q':
+                goto exit_loop;
+            default:
+                cmd = "StopAndClearBuffer()";
+                break;
+        }
+        
+        if(i>10 && (cmd != "StopAndClearBuffer()" || last_cmd != "StopAndClearBuffer()")){
+          send_cmd(cmd, node, client);
+          last_cmd = cmd;
+          i=0;
+          }
+        ch = 0;
+        rclcpp::spin_some(node);
+        //loop_rate.sleep();
+    }
+
+exit_loop:
+    endwin();  // End ncurses mode
+    rclcpp::shutdown();
+    return 0;
+}

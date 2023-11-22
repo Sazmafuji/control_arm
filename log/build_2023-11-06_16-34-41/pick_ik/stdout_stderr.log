@@ -1,0 +1,5 @@
+[  1%] Built target pick_ik_parameters
+[ 91%] Built target Catch2
+[ 93%] Built target pick_ik_plugin
+[ 95%] Built target Catch2WithMain
+[100%] Built target test-pick_ik

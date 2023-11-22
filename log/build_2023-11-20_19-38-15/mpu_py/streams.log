@@ -1,0 +1,52 @@
+[0.832s] Invoking command in '/home/sazma/ws_future/src/mpu_6050/mpu_py': PYTHONPATH=/home/sazma/ws_future/build/mpu_py/prefix_override:/home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpu_py build --build-base /home/sazma/ws_future/build/mpu_py/build install --record /home/sazma/ws_future/build/mpu_py/install.log --single-version-externally-managed
+[1.062s] running egg_info
+[1.062s] creating ../../../build/mpu_py/mpu_py.egg-info
+[1.078s] writing ../../../build/mpu_py/mpu_py.egg-info/PKG-INFO
+[1.079s] writing dependency_links to ../../../build/mpu_py/mpu_py.egg-info/dependency_links.txt
+[1.079s] writing entry points to ../../../build/mpu_py/mpu_py.egg-info/entry_points.txt
+[1.079s] writing requirements to ../../../build/mpu_py/mpu_py.egg-info/requires.txt
+[1.079s] writing top-level names to ../../../build/mpu_py/mpu_py.egg-info/top_level.txt
+[1.079s] writing manifest file '../../../build/mpu_py/mpu_py.egg-info/SOURCES.txt'
+[1.113s] reading manifest file '../../../build/mpu_py/mpu_py.egg-info/SOURCES.txt'
+[1.114s] writing manifest file '../../../build/mpu_py/mpu_py.egg-info/SOURCES.txt'
+[1.114s] running build
+[1.114s] running build_py
+[1.114s] creating /home/sazma/ws_future/build/mpu_py/build
+[1.114s] creating /home/sazma/ws_future/build/mpu_py/build/lib
+[1.114s] creating /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py
+[1.114s] copying mpu_py/__init__.py -> /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py
+[1.114s] copying mpu_py/publisher_node.py -> /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py
+[1.114s] running install
+[1.115s] /home/sazma/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.115s] !!
+[1.115s] 
+[1.115s]         ********************************************************************************
+[1.115s]         Please avoid running ``setup.py`` directly.
+[1.115s]         Instead, use pypa/build, pypa/installer or other
+[1.115s]         standards-based tools.
+[1.115s] 
+[1.115s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.115s]         ********************************************************************************
+[1.115s] 
+[1.115s] !!
+[1.115s]   self.initialize_options()
+[1.120s] running install_lib
+[1.137s] creating /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+[1.137s] copying /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py/__init__.py -> /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+[1.137s] copying /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py/publisher_node.py -> /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+[1.137s] byte-compiling /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py/__init__.py to __init__.cpython-310.pyc
+[1.138s] byte-compiling /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py/publisher_node.py to publisher_node.cpython-310.pyc
+[1.138s] running install_data
+[1.155s] creating /home/sazma/ws_future/install/mpu_py/share
+[1.155s] creating /home/sazma/ws_future/install/mpu_py/share/ament_index
+[1.155s] creating /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index
+[1.155s] creating /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index/packages
+[1.155s] copying resource/mpu_py -> /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index/packages
+[1.155s] creating /home/sazma/ws_future/install/mpu_py/share/mpu_py
+[1.155s] copying package.xml -> /home/sazma/ws_future/install/mpu_py/share/mpu_py
+[1.156s] running install_egg_info
+[1.173s] Copying ../../../build/mpu_py/mpu_py.egg-info to /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py-0.0.0-py3.10.egg-info
+[1.174s] running install_scripts
+[1.328s] Installing publisher_node script to /home/sazma/ws_future/install/mpu_py/lib/mpu_py
+[1.328s] writing list of installed files to '/home/sazma/ws_future/build/mpu_py/install.log'
+[1.351s] Invoked command in '/home/sazma/ws_future/src/mpu_6050/mpu_py' returned '0': PYTHONPATH=/home/sazma/ws_future/build/mpu_py/prefix_override:/home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mpu_py build --build-base /home/sazma/ws_future/build/mpu_py/build install --record /home/sazma/ws_future/build/mpu_py/install.log --single-version-externally-managed

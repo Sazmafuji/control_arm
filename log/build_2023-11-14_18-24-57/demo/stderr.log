@@ -1,0 +1,4 @@
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_get_and_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_get_and_control.cpp:126:1:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kexit_loop[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+  126 | [01;35m[Kexit_loop[m[K:
+      | [01;35m[K^~~~~~~~~[m[K

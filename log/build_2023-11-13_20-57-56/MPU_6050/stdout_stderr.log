@@ -1,0 +1,28 @@
+running egg_info
+creating ../../build/MPU_6050/MPU_6050.egg-info
+writing ../../build/MPU_6050/MPU_6050.egg-info/PKG-INFO
+writing dependency_links to ../../build/MPU_6050/MPU_6050.egg-info/dependency_links.txt
+writing entry points to ../../build/MPU_6050/MPU_6050.egg-info/entry_points.txt
+writing requirements to ../../build/MPU_6050/MPU_6050.egg-info/requires.txt
+writing top-level names to ../../build/MPU_6050/MPU_6050.egg-info/top_level.txt
+writing manifest file '../../build/MPU_6050/MPU_6050.egg-info/SOURCES.txt'
+reading manifest file '../../build/MPU_6050/MPU_6050.egg-info/SOURCES.txt'
+writing manifest file '../../build/MPU_6050/MPU_6050.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sazma/ws_future/build/MPU_6050/build
+creating /home/sazma/ws_future/build/MPU_6050/build/lib
+creating /home/sazma/ws_future/build/MPU_6050/build/lib/MPU_6050
+copying MPU_6050/__init__.py -> /home/sazma/ws_future/build/MPU_6050/build/lib/MPU_6050
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/sazma/ws_future/install/MPU_6050/lib/python3.10/site-packages/MPU_6050
+copying /home/sazma/ws_future/build/MPU_6050/build/lib/MPU_6050/__init__.py -> /home/sazma/ws_future/install/MPU_6050/lib/python3.10/site-packages/MPU_6050
+byte-compiling /home/sazma/ws_future/install/MPU_6050/lib/python3.10/site-packages/MPU_6050/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+Copying ../../build/MPU_6050/MPU_6050.egg-info to /home/sazma/ws_future/install/MPU_6050/lib/python3.10/site-packages/MPU_6050-0.0.1-py3.10.egg-info
+running install_scripts
+Installing publisher_node script to /home/sazma/ws_future/install/MPU_6050/bin
+writing list of installed files to '/home/sazma/ws_future/build/MPU_6050/install.log'

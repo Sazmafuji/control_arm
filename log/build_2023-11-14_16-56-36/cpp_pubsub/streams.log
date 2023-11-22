@@ -1,0 +1,27 @@
+[0.625s] Invoking command in '/home/sazma/ws_future/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/cpp_pubsub -- -j12 -l12
+[0.765s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.765s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.765s] [ 50%] Built target listener
+[0.765s] [100%] Built target talker
+[1.189s] Invoked command in '/home/sazma/ws_future/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/cpp_pubsub -- -j12 -l12
+[1.930s] Invoking command in '/home/sazma/ws_future/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/cpp_pubsub
+[2.284s] -- Install configuration: ""
+[2.284s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.284s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.284s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/lib/cpp_pubsub/listener
+[2.284s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.285s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.285s] -- Installing: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.286s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.286s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.286s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.286s] -- Up-to-date: /home/sazma/ws_future/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.864s] Invoked command in '/home/sazma/ws_future/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/cpp_pubsub

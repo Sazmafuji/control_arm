@@ -1,0 +1,31 @@
+source .bashrc
+
+source /opt/ros/humble/setup.bash
+source ~/ws_future/install/setup.bash
+
+colcon build --symlink-install
+
+# the first node
+ros2 run tm_driver tm_driver robot_ip:=192.168.10.5
+
+# the second node
+colcon build --packages-select mpu_cpp
+source install/setup.bash
+ros2 run mpu_cpp cpp_publisher_node
+
+# the third node
+colcon build --packages-select demo
+source install/setup.bash
+ros2 run demo demo_get_and_control
+
+
+
+
+ros2 run demo demo_send_script
+ros2 run demo demo_keycontrol
+
+ros2 run mpu_6050 publisher_node
+
+ros2 launch demo_tmr5_900 demo.launch.py
+
+

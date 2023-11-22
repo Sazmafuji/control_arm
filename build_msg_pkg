@@ -1,0 +1,31 @@
+https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html#background
+
+ros2 pkg create --build-type ament_cmake <tutorial_interfaces>
+
+msgsrvros2_ws/src/tutorial_interfaces
+mkdir msg srv
+
+tutorial_interfaces/msg
+Num.msg #the first alphabet must be Cap
+
+
+
+find_package(geometry_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Num.msg"
+  DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+)
+
+
+
+<depend>geometry_msgs</depend>
+<buildtool_depend>rosidl_default_generators</buildtool_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+
+
+colcon build --packages-select <tutorial_interfaces>
+source install/setup.bash
+ros2 interface show <tutorial_interfaces>/msg/Num

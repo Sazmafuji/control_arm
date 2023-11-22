@@ -1,0 +1,15 @@
+/usr/bin/ld: CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o: warning: relocation against `stdscr' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o: in function `main':
+demo_keycontrol.cpp:(.text+0x147b): undefined reference to `initscr'
+/usr/bin/ld: demo_keycontrol.cpp:(.text+0x1482): undefined reference to `stdscr'
+/usr/bin/ld: demo_keycontrol.cpp:(.text+0x148f): undefined reference to `wtimeout'
+/usr/bin/ld: demo_keycontrol.cpp:(.text+0x1494): undefined reference to `noecho'
+/usr/bin/ld: demo_keycontrol.cpp:(.text+0x1499): undefined reference to `cbreak'
+/usr/bin/ld: demo_keycontrol.cpp:(.text+0x14a5): undefined reference to `stdscr'
+/usr/bin/ld: demo_keycontrol.cpp:(.text+0x14ad): undefined reference to `wgetch'
+/usr/bin/ld: demo_keycontrol.cpp:(.text+0x1651): undefined reference to `endwin'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo_keycontrol.dir/build.make:183: demo_keycontrol] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/demo_keycontrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

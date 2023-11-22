@@ -1,0 +1,31 @@
+running egg_info
+writing ../../../build/mpu_py/mpu_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/mpu_py/mpu_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/mpu_py/mpu_py.egg-info/entry_points.txt
+writing requirements to ../../../build/mpu_py/mpu_py.egg-info/requires.txt
+writing top-level names to ../../../build/mpu_py/mpu_py.egg-info/top_level.txt
+reading manifest file '../../../build/mpu_py/mpu_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/mpu_py/mpu_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mpu_py/__init__.py -> /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py
+running install
+running install_lib
+creating /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+copying /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py/__init__.py -> /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+copying /home/sazma/ws_future/build/mpu_py/build/lib/mpu_py/publisher_node.py -> /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py
+byte-compiling /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py/publisher_node.py to publisher_node.cpython-310.pyc
+running install_data
+creating /home/sazma/ws_future/install/mpu_py/share
+creating /home/sazma/ws_future/install/mpu_py/share/ament_index
+creating /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index
+creating /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index/packages
+copying resource/mpu_py -> /home/sazma/ws_future/install/mpu_py/share/ament_index/resource_index/packages
+creating /home/sazma/ws_future/install/mpu_py/share/mpu_py
+copying package.xml -> /home/sazma/ws_future/install/mpu_py/share/mpu_py
+running install_egg_info
+Copying ../../../build/mpu_py/mpu_py.egg-info to /home/sazma/ws_future/install/mpu_py/lib/python3.10/site-packages/mpu_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher_node script to /home/sazma/ws_future/install/mpu_py/lib/mpu_py
+writing list of installed files to '/home/sazma/ws_future/build/mpu_py/install.log'

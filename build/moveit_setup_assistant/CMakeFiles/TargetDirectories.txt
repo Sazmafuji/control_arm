@@ -1,0 +1,13 @@
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/uninstall.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_uninstall.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_updater.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/test.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/edit_cache.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/rebuild_cache.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/list_install_components.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/install.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/install/local.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/install/strip.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_autogen.dir
+/home/sazma/ws_future/build/moveit_setup_assistant/CMakeFiles/moveit_setup_assistant_updater_autogen.dir

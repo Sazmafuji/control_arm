@@ -1,0 +1,6 @@
+{
+  "package_name": "msg_store",
+  "non_idl_tuples": [
+    "/home/sazma/ws_future/src/msg_store:msg/Mpu.msg"
+  ]
+}

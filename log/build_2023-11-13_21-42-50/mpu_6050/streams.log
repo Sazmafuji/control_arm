@@ -1,0 +1,9 @@
+[0.770s] Invoking command in '/home/sazma/ws_future/src/mpu_6050': PYTHONPATH=/home/sazma/ws_future/build/mpu_6050/prefix_override:/home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpu_6050 build --build-base /home/sazma/ws_future/build/mpu_6050/build install --record /home/sazma/ws_future/build/mpu_6050/install.log --single-version-externally-managed
+[1.005s] running egg_info
+[1.006s] writing ../../build/mpu_6050/mpu_6050.egg-info/PKG-INFO
+[1.006s] writing dependency_links to ../../build/mpu_6050/mpu_6050.egg-info/dependency_links.txt
+[1.006s] writing entry points to ../../build/mpu_6050/mpu_6050.egg-info/entry_points.txt
+[1.006s] writing requirements to ../../build/mpu_6050/mpu_6050.egg-info/requires.txt
+[1.007s] writing top-level names to ../../build/mpu_6050/mpu_6050.egg-info/top_level.txt
+[1.007s] error: package directory 'mpu_6050' does not exist
+[1.022s] Invoked command in '/home/sazma/ws_future/src/mpu_6050' returned '1': PYTHONPATH=/home/sazma/ws_future/build/mpu_6050/prefix_override:/home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpu_6050 build --build-base /home/sazma/ws_future/build/mpu_6050/build install --record /home/sazma/ws_future/build/mpu_6050/install.log --single-version-externally-managed

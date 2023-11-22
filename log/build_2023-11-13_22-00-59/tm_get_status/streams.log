@@ -1,0 +1,35 @@
+[2.731s] Invoking command in '/home/sazma/ws_future/src/tmr_ros2/techman_robot_get_status': PYTHONPATH=/home/sazma/ws_future/build/tm_get_status/prefix_override:/home/sazma/ws_future/install/tm_get_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tm_get_status build --build-base /home/sazma/ws_future/build/tm_get_status/build install --record /home/sazma/ws_future/build/tm_get_status/install.log --single-version-externally-managed
+[3.001s] running egg_info
+[3.001s] writing ../../../build/tm_get_status/tm_get_status.egg-info/PKG-INFO
+[3.001s] writing dependency_links to ../../../build/tm_get_status/tm_get_status.egg-info/dependency_links.txt
+[3.001s] writing entry points to ../../../build/tm_get_status/tm_get_status.egg-info/entry_points.txt
+[3.002s] writing requirements to ../../../build/tm_get_status/tm_get_status.egg-info/requires.txt
+[3.002s] writing top-level names to ../../../build/tm_get_status/tm_get_status.egg-info/top_level.txt
+[3.017s] reading manifest file '../../../build/tm_get_status/tm_get_status.egg-info/SOURCES.txt'
+[3.018s] writing manifest file '../../../build/tm_get_status/tm_get_status.egg-info/SOURCES.txt'
+[3.018s] running build
+[3.018s] running build_py
+[3.018s] running install
+[3.018s] /home/sazma/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.019s] !!
+[3.019s] 
+[3.019s]         ********************************************************************************
+[3.019s]         Please avoid running ``setup.py`` directly.
+[3.019s]         Instead, use pypa/build, pypa/installer or other
+[3.019s]         standards-based tools.
+[3.019s] 
+[3.019s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.019s]         ********************************************************************************
+[3.019s] 
+[3.019s] !!
+[3.019s]   self.initialize_options()
+[3.024s] running install_lib
+[3.042s] running install_data
+[3.060s] running install_egg_info
+[3.079s] removing '/home/sazma/ws_future/install/tm_get_status/lib/python3.10/site-packages/tm_get_status-1.0.0-py3.10.egg-info' (and everything under it)
+[3.079s] Copying ../../../build/tm_get_status/tm_get_status.egg-info to /home/sazma/ws_future/install/tm_get_status/lib/python3.10/site-packages/tm_get_status-1.0.0-py3.10.egg-info
+[3.080s] running install_scripts
+[3.239s] Installing image_talker script to /home/sazma/ws_future/install/tm_get_status/lib/tm_get_status
+[3.239s] Installing status_talker script to /home/sazma/ws_future/install/tm_get_status/lib/tm_get_status
+[3.240s] writing list of installed files to '/home/sazma/ws_future/build/tm_get_status/install.log'
+[3.955s] Invoked command in '/home/sazma/ws_future/src/tmr_ros2/techman_robot_get_status' returned '0': PYTHONPATH=/home/sazma/ws_future/build/tm_get_status/prefix_override:/home/sazma/ws_future/install/tm_get_status/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tm_get_status build --build-base /home/sazma/ws_future/build/tm_get_status/build install --record /home/sazma/ws_future/build/tm_get_status/install.log --single-version-externally-managed

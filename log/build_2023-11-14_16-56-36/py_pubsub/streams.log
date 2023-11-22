@@ -1,0 +1,39 @@
+[3.324s] Invoking command in '/home/sazma/ws_future/src/py_pubsub': PYTHONPATH=/home/sazma/ws_future/build/py_pubsub/prefix_override:/home/sazma/ws_future/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/sazma/ws_future/build/py_pubsub/build install --record /home/sazma/ws_future/build/py_pubsub/install.log --single-version-externally-managed
+[3.584s] running egg_info
+[3.602s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[3.602s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[3.603s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[3.603s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[3.603s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[3.640s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.642s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.642s] running build
+[3.642s] running build_py
+[3.642s] copying py_pubsub/publisher_member_function.py -> /home/sazma/ws_future/build/py_pubsub/build/lib/py_pubsub
+[3.643s] running install
+[3.643s] /home/sazma/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.643s] !!
+[3.643s] 
+[3.643s]         ********************************************************************************
+[3.643s]         Please avoid running ``setup.py`` directly.
+[3.644s]         Instead, use pypa/build, pypa/installer or other
+[3.644s]         standards-based tools.
+[3.644s] 
+[3.644s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.644s]         ********************************************************************************
+[3.644s] 
+[3.644s] !!
+[3.644s]   self.initialize_options()
+[3.649s] running install_lib
+[3.669s] copying /home/sazma/ws_future/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/sazma/ws_future/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.670s] byte-compiling /home/sazma/ws_future/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[3.670s] running install_data
+[3.689s] copying package.xml -> /home/sazma/ws_future/install/py_pubsub/share/py_pubsub
+[3.689s] running install_egg_info
+[3.708s] removing '/home/sazma/ws_future/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.708s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/sazma/ws_future/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.708s] running install_scripts
+[3.913s] Installing listener script to /home/sazma/ws_future/install/py_pubsub/lib/py_pubsub
+[3.913s] Installing talker script to /home/sazma/ws_future/install/py_pubsub/lib/py_pubsub
+[3.913s] writing list of installed files to '/home/sazma/ws_future/build/py_pubsub/install.log'
+[4.642s] Invoked command in '/home/sazma/ws_future/src/py_pubsub' returned '0': PYTHONPATH=/home/sazma/ws_future/build/py_pubsub/prefix_override:/home/sazma/ws_future/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/sazma/ws_future/build/py_pubsub/build install --record /home/sazma/ws_future/build/py_pubsub/install.log --single-version-externally-managed

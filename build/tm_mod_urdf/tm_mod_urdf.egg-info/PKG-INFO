@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tm-mod-urdf
+Version: 1.0.0
+Summary: tm_mod_urdf
+Maintainer: yhtsai
+Maintainer-email: ken.tsai@tm-robot.com
+License: BSD
+Requires-Dist: setuptools

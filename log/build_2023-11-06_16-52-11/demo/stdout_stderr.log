@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_keycontrol[0m
+[ 37%] Built target demo_send_script
+[ 37%] Built target demo_set_positions
+[ 37%] Built target demo_keyboard_control
+[ 40%] Built target demo_ask_sta
+[ 56%] Built target demo_set_event
+[ 56%] Built target demo_ask_item
+[ 56%] Built target demo_set_io
+[ 56%] Built target demo_write_item
+[ 56%] Built target demo_connect_tm
+[ 62%] Built target demo_get_torque_feedback
+[ 68%] Built target demo_get_feedback
+[ 71%] [32mBuilding CXX object CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o[0m
+[ 87%] Built target demo_get_sct_response
+[ 90%] Built target demo_leave_listen_node
+[ 90%] Built target demo_get_sta_response
+[ 96%] Built target demo_get_svr_response
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:82:14:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   82 |         ch = [01;31m[K" "[m[K;
+      |              [01;31m[K^~~[m[K
+      |              [01;31m[K|[m[K
+      |              [01;31m[Kconst char*[m[K
+gmake[2]: *** [CMakeFiles/demo_keycontrol.dir/build.make:76: CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/demo_keycontrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

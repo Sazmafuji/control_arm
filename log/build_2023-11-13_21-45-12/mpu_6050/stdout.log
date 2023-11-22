@@ -1,0 +1,8 @@
+running egg_info
+creating ../../build/mpu_6050/mpu_6050.egg-info
+writing ../../build/mpu_6050/mpu_6050.egg-info/PKG-INFO
+writing dependency_links to ../../build/mpu_6050/mpu_6050.egg-info/dependency_links.txt
+writing entry points to ../../build/mpu_6050/mpu_6050.egg-info/entry_points.txt
+writing requirements to ../../build/mpu_6050/mpu_6050.egg-info/requires.txt
+writing top-level names to ../../build/mpu_6050/mpu_6050.egg-info/top_level.txt
+writing manifest file '../../build/mpu_6050/mpu_6050.egg-info/SOURCES.txt'

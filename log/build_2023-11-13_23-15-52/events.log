@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (-) JobUnselected: {'identifier': 'chomp_motion_planner'}
+[0.000129] (-) JobUnselected: {'identifier': 'custom_package'}
+[0.000149] (-) JobUnselected: {'identifier': 'demo'}
+[0.000166] (-) JobUnselected: {'identifier': 'demo_tmr5_900'}
+[0.000181] (-) JobUnselected: {'identifier': 'dual_arm_panda_moveit_config'}
+[0.000197] (-) JobUnselected: {'identifier': 'kinova_gen3_6dof_robotiq_2f_85_moveit_config'}
+[0.000213] (-) JobUnselected: {'identifier': 'kinova_gen3_7dof_robotiq_2f_85_moveit_config'}
+[0.000228] (-) JobUnselected: {'identifier': 'kortex_api'}
+[0.000243] (-) JobUnselected: {'identifier': 'kortex_bringup'}
+[0.000257] (-) JobUnselected: {'identifier': 'kortex_description'}
+[0.000272] (-) JobUnselected: {'identifier': 'kortex_driver'}
+[0.000287] (-) JobUnselected: {'identifier': 'moveit'}
+[0.000302] (-) JobUnselected: {'identifier': 'moveit2_tutorials'}
+[0.000316] (-) JobUnselected: {'identifier': 'moveit_chomp_optimizer_adapter'}
+[0.000331] (-) JobUnselected: {'identifier': 'moveit_common'}
+[0.000346] (-) JobUnselected: {'identifier': 'moveit_configs_utils'}
+[0.000360] (-) JobUnselected: {'identifier': 'moveit_core'}
+[0.000375] (-) JobUnselected: {'identifier': 'moveit_hybrid_planning'}
+[0.000390] (-) JobUnselected: {'identifier': 'moveit_kinematics'}
+[0.000405] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.000420] (-) JobUnselected: {'identifier': 'moveit_planners'}
+[0.000434] (-) JobUnselected: {'identifier': 'moveit_planners_chomp'}
+[0.000449] (-) JobUnselected: {'identifier': 'moveit_planners_ompl'}
+[0.000463] (-) JobUnselected: {'identifier': 'moveit_planners_stomp'}
+[0.000478] (-) JobUnselected: {'identifier': 'moveit_plugins'}
+[0.000492] (-) JobUnselected: {'identifier': 'moveit_py'}
+[0.000507] (-) JobUnselected: {'identifier': 'moveit_resources'}
+[0.000521] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_description'}
+[0.000536] (-) JobUnselected: {'identifier': 'moveit_resources_fanuc_moveit_config'}
+[0.000550] (-) JobUnselected: {'identifier': 'moveit_resources_panda_description'}
+[0.000565] (-) JobUnselected: {'identifier': 'moveit_resources_panda_moveit_config'}
+[0.000580] (-) JobUnselected: {'identifier': 'moveit_resources_pr2_description'}
+[0.000594] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_ikfast_manipulator_plugin'}
+[0.000609] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_moveit_config'}
+[0.000623] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_pg70_support'}
+[0.000638] (-) JobUnselected: {'identifier': 'moveit_resources_prbt_support'}
+[0.000652] (-) JobUnselected: {'identifier': 'moveit_ros'}
+[0.000667] (-) JobUnselected: {'identifier': 'moveit_ros_benchmarks'}
+[0.000681] (-) JobUnselected: {'identifier': 'moveit_ros_control_interface'}
+[0.000695] (-) JobUnselected: {'identifier': 'moveit_ros_move_group'}
+[0.000710] (-) JobUnselected: {'identifier': 'moveit_ros_occupancy_map_monitor'}
+[0.000724] (-) JobUnselected: {'identifier': 'moveit_ros_perception'}
+[0.000739] (-) JobUnselected: {'identifier': 'moveit_ros_planning'}
+[0.000753] (-) JobUnselected: {'identifier': 'moveit_ros_planning_interface'}
+[0.000768] (-) JobUnselected: {'identifier': 'moveit_ros_robot_interaction'}
+[0.000782] (-) JobUnselected: {'identifier': 'moveit_ros_visualization'}
+[0.000797] (-) JobUnselected: {'identifier': 'moveit_ros_warehouse'}
+[0.000811] (-) JobUnselected: {'identifier': 'moveit_runtime'}
+[0.000826] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.000840] (-) JobUnselected: {'identifier': 'moveit_setup_app_plugins'}
+[0.000854] (-) JobUnselected: {'identifier': 'moveit_setup_assistant'}
+[0.000869] (-) JobUnselected: {'identifier': 'moveit_setup_controllers'}
+[0.000883] (-) JobUnselected: {'identifier': 'moveit_setup_core_plugins'}
+[0.000897] (-) JobUnselected: {'identifier': 'moveit_setup_framework'}
+[0.000912] (-) JobUnselected: {'identifier': 'moveit_setup_srdf_plugins'}
+[0.000926] (-) JobUnselected: {'identifier': 'moveit_simple_controller_manager'}
+[0.000940] (-) JobUnselected: {'identifier': 'moveit_task_constructor_capabilities'}
+[0.000980] (-) JobUnselected: {'identifier': 'moveit_task_constructor_core'}
+[0.001053] (-) JobUnselected: {'identifier': 'moveit_task_constructor_demo'}
+[0.001070] (-) JobUnselected: {'identifier': 'moveit_task_constructor_msgs'}
+[0.001086] (-) JobUnselected: {'identifier': 'moveit_task_constructor_visualization'}
+[0.001101] (-) JobUnselected: {'identifier': 'moveit_visual_tools'}
+[0.001115] (-) JobUnselected: {'identifier': 'mpu_6050'}
+[0.001130] (-) JobUnselected: {'identifier': 'pick_ik'}
+[0.001145] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner'}
+[0.001160] (-) JobUnselected: {'identifier': 'pilz_industrial_motion_planner_testutils'}
+[0.001175] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001190] (-) JobUnselected: {'identifier': 'rviz_marker_tools'}
+[0.001204] (-) JobUnselected: {'identifier': 'rviz_visual_tools'}
+[0.001219] (-) JobUnselected: {'identifier': 'techman_robot_msgs'}
+[0.001234] (-) JobUnselected: {'identifier': 'tm_description'}
+[0.001248] (-) JobUnselected: {'identifier': 'tm_driver'}
+[0.001273] (-) JobUnselected: {'identifier': 'tm_get_status'}
+[0.001356] (-) JobUnselected: {'identifier': 'tm_mod_urdf'}
+[0.001373] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm12'}
+[0.001388] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm12x'}
+[0.001403] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm14'}
+[0.001423] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm14x'}
+[0.001439] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm5-700'}
+[0.001453] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm5-900'}
+[0.001468] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm5x-700'}
+[0.001483] (-) JobUnselected: {'identifier': 'tm_moveit_config_tm5x-900'}
+[0.001498] (-) JobUnselected: {'identifier': 'tm_moveit_cpp_demo'}
+[0.001512] (-) JobUnselected: {'identifier': 'tm_msgs'}
+[0.001527] (-) JobUnselected: {'identifier': 'ui_for_debug_and_demo'}
+[0.001544] (msg_store) JobQueued: {'identifier': 'msg_store', 'dependencies': OrderedDict()}
+[0.001563] (msg_store) JobStarted: {'identifier': 'msg_store'}
+[0.093914] (msg_store) JobProgress: {'identifier': 'msg_store', 'progress': 'cmake'}
+[0.094222] (msg_store) Command: {'cmd': ['/usr/bin/cmake', '/home/sazma/ws_future/src/msg_store', '-DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/msg_store'], 'cwd': '/home/sazma/ws_future/build/msg_store', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'sazma'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sazma/ws_future/install/tutorial_interfaces/lib:/home/sazma/ws_future/install/tm_msgs/lib:/home/sazma/ws_future/install/techman_robot_msgs/lib:/home/sazma/ws_future/install/moveit_visual_tools/lib:/home/sazma/ws_future/install/rviz_visual_tools/lib:/home/sazma/ws_future/install/moveit_task_constructor_visualization/lib:/home/sazma/ws_future/install/moveit_task_constructor_demo/lib:/home/sazma/ws_future/install/moveit_task_constructor_capabilities/lib:/home/sazma/ws_future/install/moveit_task_constructor_core/lib:/home/sazma/ws_future/install/rviz_marker_tools/lib:/home/sazma/ws_future/install/pilz_industrial_motion_planner_testutils/lib:/home/sazma/ws_future/install/pilz_industrial_motion_planner/lib:/home/sazma/ws_future/install/pick_ik/lib:/home/sazma/ws_future/install/moveit_task_constructor_msgs/lib:/home/sazma/ws_future/install/moveit_ros_control_interface/lib:/home/sazma/ws_future/install/moveit_simple_controller_manager/lib:/home/sazma/ws_future/install/moveit_setup_assistant/lib:/home/sazma/ws_future/install/moveit_setup_srdf_plugins/lib:/home/sazma/ws_future/install/moveit_setup_core_plugins/lib:/home/sazma/ws_future/install/moveit_setup_controllers/lib:/home/sazma/ws_future/install/moveit_setup_app_plugins/lib:/home/sazma/ws_future/install/moveit_setup_framework/lib:/home/sazma/ws_future/install/moveit_servo/lib:/home/sazma/ws_future/install/moveit_ros_visualization/lib:/home/sazma/ws_future/install/moveit_py/lib:/home/sazma/ws_future/install/moveit_hybrid_planning/lib:/home/sazma/ws_future/install/moveit_ros_planning_interface/lib:/home/sazma/ws_future/install/moveit_ros_benchmarks/lib:/home/sazma/ws_future/install/moveit_ros_warehouse/lib:/home/sazma/ws_future/install/moveit_ros_robot_interaction/lib:/home/sazma/ws_future/install/moveit_ros_perception/lib:/home/sazma/ws_future/install/moveit_ros_move_group/lib:/home/sazma/ws_future/install/moveit_planners_ompl/lib:/home/sazma/ws_future/install/moveit_kinematics/lib:/home/sazma/ws_future/install/moveit_ros_planning/lib:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor/lib:/home/sazma/ws_future/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/sazma/ws_future/install/moveit_planners_stomp/lib:/home/sazma/ws_future/install/moveit_planners_chomp/lib:/home/sazma/ws_future/install/moveit_chomp_optimizer_adapter/lib:/home/sazma/ws_future/install/chomp_motion_planner/lib:/home/sazma/ws_future/install/moveit_core/lib:/home/sazma/ws_future/install/moveit_msgs/lib:/home/sazma/ws_future/install/kortex_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sazma'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1648'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56b4b5f9baa6ee55e9d6a55165520406'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sazma/tm5_900_ws/install:/home/sazma/ws_future/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sazma'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sazma'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sazma/ws_future/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sazma-ROG-Zephyrus-M15-GU502LV-GU502LV:@/tmp/.ICE-unix/1648,unix/sazma-ROG-Zephyrus-M15-GU502LV-GU502LV:/tmp/.ICE-unix/1648'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3b710f51_09f6_4bec_9dc7_c0d99e3505ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M0QDE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1052'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tutorial_interfaces:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_future/install/moveit2_tutorials:/home/sazma/ws_future/install/moveit_visual_tools:/home/sazma/ws_future/install/rviz_visual_tools:/home/sazma/ws_future/install/moveit_task_constructor_visualization:/home/sazma/ws_future/install/moveit_task_constructor_demo:/home/sazma/ws_future/install/moveit_task_constructor_capabilities:/home/sazma/ws_future/install/moveit_task_constructor_core:/home/sazma/ws_future/install/rviz_marker_tools:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/pilz_industrial_motion_planner_testutils:/home/sazma/ws_future/install/moveit_runtime:/home/sazma/ws_future/install/moveit:/home/sazma/ws_future/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/moveit_planners:/home/sazma/ws_future/install/pilz_industrial_motion_planner:/home/sazma/ws_future/install/pick_ik:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_task_constructor_msgs:/home/sazma/ws_future/install/moveit_ros_control_interface:/home/sazma/ws_future/install/moveit_plugins:/home/sazma/ws_future/install/moveit_simple_controller_manager:/home/sazma/ws_future/install/moveit_setup_assistant:/home/sazma/ws_future/install/moveit_setup_srdf_plugins:/home/sazma/ws_future/install/moveit_setup_core_plugins:/home/sazma/ws_future/install/moveit_setup_controllers:/home/sazma/ws_future/install/moveit_setup_app_plugins:/home/sazma/ws_future/install/moveit_setup_framework:/home/sazma/ws_future/install/moveit_servo:/home/sazma/ws_future/install/moveit_ros:/home/sazma/ws_future/install/moveit_ros_visualization:/home/sazma/ws_future/install/moveit_py:/home/sazma/ws_future/install/moveit_hybrid_planning:/home/sazma/ws_future/install/moveit_ros_planning_interface:/home/sazma/ws_future/install/moveit_ros_benchmarks:/home/sazma/ws_future/install/moveit_ros_warehouse:/home/sazma/ws_future/install/moveit_ros_robot_interaction:/home/sazma/ws_future/install/moveit_ros_perception:/home/sazma/ws_future/install/moveit_resources_prbt_pg70_support:/home/sazma/ws_future/install/moveit_resources_prbt_moveit_config:/home/sazma/ws_future/install/moveit_ros_move_group:/home/sazma/ws_future/install/moveit_planners_ompl:/home/sazma/ws_future/install/moveit_kinematics:/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_resources_prbt_support:/home/sazma/ws_future/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sazma/ws_future/install/moveit_resources:/home/sazma/ws_future/install/moveit_resources_pr2_description:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/dual_arm_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_planners_stomp:/home/sazma/ws_future/install/moveit_planners_chomp:/home/sazma/ws_future/install/moveit_chomp_optimizer_adapter:/home/sazma/ws_future/install/chomp_motion_planner:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_configs_utils:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/kortex_bringup:/home/sazma/ws_future/install/kortex_driver:/home/sazma/ws_future/install/kortex_description:/home/sazma/ws_future/install/kortex_api:/home/sazma/tm5_900_ws/install/demo_tmr5_900:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sazma/ws_future/build/msg_store'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=56b4b5f9baa6ee55e9d6a55165520406'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sazma/ws_future/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/tm_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/tm_mod_urdf/lib/python3.10/site-packages:/home/sazma/ws_future/install/tm_get_status/lib/python3.10/site-packages:/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/py_pubsub/lib/python3.10/site-packages:/home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages:/home/sazma/ws_future/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_py/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tutorial_interfaces:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_future/install/moveit2_tutorials:/home/sazma/ws_future/install/moveit_visual_tools:/home/sazma/ws_future/install/rviz_visual_tools:/home/sazma/ws_future/install/moveit_task_constructor_visualization:/home/sazma/ws_future/install/moveit_task_constructor_demo:/home/sazma/ws_future/install/moveit_task_constructor_capabilities:/home/sazma/ws_future/install/moveit_task_constructor_core:/home/sazma/ws_future/install/rviz_marker_tools:/home/sazma/ws_future/install/pilz_industrial_motion_planner_testutils:/home/sazma/ws_future/install/moveit_runtime:/home/sazma/ws_future/install/moveit:/home/sazma/ws_future/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/moveit_planners:/home/sazma/ws_future/install/pilz_industrial_motion_planner:/home/sazma/ws_future/install/pick_ik:/home/sazma/ws_future/install/moveit_task_constructor_msgs:/home/sazma/ws_future/install/moveit_ros_control_interface:/home/sazma/ws_future/install/moveit_plugins:/home/sazma/ws_future/install/moveit_simple_controller_manager:/home/sazma/ws_future/install/moveit_setup_assistant:/home/sazma/ws_future/install/moveit_setup_srdf_plugins:/home/sazma/ws_future/install/moveit_setup_core_plugins:/home/sazma/ws_future/install/moveit_setup_controllers:/home/sazma/ws_future/install/moveit_setup_app_plugins:/home/sazma/ws_future/install/moveit_setup_framework:/home/sazma/ws_future/install/moveit_servo:/home/sazma/ws_future/install/moveit_ros:/home/sazma/ws_future/install/moveit_ros_visualization:/home/sazma/ws_future/install/moveit_py:/home/sazma/ws_future/install/moveit_hybrid_planning:/home/sazma/ws_future/install/moveit_ros_planning_interface:/home/sazma/ws_future/install/moveit_ros_benchmarks:/home/sazma/ws_future/install/moveit_ros_warehouse:/home/sazma/ws_future/install/moveit_ros_robot_interaction:/home/sazma/ws_future/install/moveit_ros_perception:/home/sazma/ws_future/install/moveit_resources_prbt_pg70_support:/home/sazma/ws_future/install/moveit_resources_prbt_moveit_config:/home/sazma/ws_future/install/moveit_ros_move_group:/home/sazma/ws_future/install/moveit_planners_ompl:/home/sazma/ws_future/install/moveit_kinematics:/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_resources_prbt_support:/home/sazma/ws_future/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sazma/ws_future/install/moveit_resources:/home/sazma/ws_future/install/moveit_resources_pr2_description:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/dual_arm_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_planners_stomp:/home/sazma/ws_future/install/moveit_planners_chomp:/home/sazma/ws_future/install/moveit_chomp_optimizer_adapter:/home/sazma/ws_future/install/chomp_motion_planner:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/kortex_bringup:/home/sazma/ws_future/install/kortex_driver:/home/sazma/ws_future/install/kortex_description:/home/sazma/ws_future/install/kortex_api:/home/sazma/tm5_900_ws/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/py_pubsub:/home/sazma/ws_future/install/mpu_6050:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble')]), 'shell': False}
+[0.099273] (-) TimerEvent: {}
+[0.152075] (msg_store) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199415] (-) TimerEvent: {}
+[0.203475] (msg_store) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.210928] (msg_store) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.285179] (msg_store) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.293840] (msg_store) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.294118] (msg_store) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.294561] (msg_store) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.297748] (msg_store) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299485] (-) TimerEvent: {}
+[0.399703] (-) TimerEvent: {}
+[0.402032] (msg_store) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.410208] (msg_store) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.410438] (msg_store) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.410937] (msg_store) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.418517] (msg_store) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499803] (-) TimerEvent: {}
+[0.600014] (-) TimerEvent: {}
+[0.700232] (-) TimerEvent: {}
+[0.787880] (msg_store) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.800304] (-) TimerEvent: {}
+[0.900528] (-) TimerEvent: {}
+[0.947275] (msg_store) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.000605] (-) TimerEvent: {}
+[1.034355] (msg_store) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.049048] (msg_store) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.067468] (msg_store) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.094014] (msg_store) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100673] (-) TimerEvent: {}
+[1.131437] (msg_store) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200763] (-) TimerEvent: {}
+[1.272011] (msg_store) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.300838] (-) TimerEvent: {}
+[1.401044] (-) TimerEvent: {}
+[1.460125] (msg_store) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[1.460385] (msg_store) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[1.460459] (msg_store) StderrLine: {'line': b'  msg_store --arguments-file\n'}
+[1.460519] (msg_store) StderrLine: {'line': b'  /home/sazma/ws_future/build/msg_store/rosidl_adapter__arguments__msg_store.json\n'}
+[1.460576] (msg_store) StderrLine: {'line': b'  --output-dir /home/sazma/ws_future/build/msg_store/rosidl_adapter/msg_store\n'}
+[1.460632] (msg_store) StderrLine: {'line': b'  --output-file\n'}
+[1.460687] (msg_store) StderrLine: {'line': b'  /home/sazma/ws_future/build/msg_store/rosidl_adapter/msg_store.idls)\n'}
+[1.460742] (msg_store) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.460795] (msg_store) StderrLine: {'line': b'\n'}
+[1.460849] (msg_store) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.460904] (msg_store) StderrLine: {'line': b'\n'}
+[1.460958] (msg_store) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[1.461013] (msg_store) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.461067] (msg_store) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[1.461121] (msg_store) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.461175] (msg_store) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.461230] (msg_store) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.461299] (msg_store) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.461357] (msg_store) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.461412] (msg_store) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.461467] (msg_store) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.461521] (msg_store) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.461583] (msg_store) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.461639] (msg_store) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[1.461694] (msg_store) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.461748] (msg_store) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[1.461803] (msg_store) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.461857] (msg_store) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[1.461911] (msg_store) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.461964] (msg_store) StderrLine: {'line': b'\n'}
+[1.462017] (msg_store) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'mpu_6050' is an invalid message\n"}
+[1.462076] (msg_store) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.462131] (msg_store) StderrLine: {'line': b'\n'}
+[1.462184] (msg_store) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.462238] (msg_store) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.462292] (msg_store) StderrLine: {'line': b'  CMakeLists.txt:17 (rosidl_generate_interfaces)\n'}
+[1.462347] (msg_store) StderrLine: {'line': b'\n'}
+[1.462400] (msg_store) StderrLine: {'line': b'\x1b[0m\n'}
+[1.462454] (msg_store) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.462515] (msg_store) StdoutLine: {'line': b'See also "/home/sazma/ws_future/build/msg_store/CMakeFiles/CMakeOutput.log".\n'}
+[1.465945] (msg_store) CommandEnded: {'returncode': 1}
+[1.501181] (-) TimerEvent: {}
+[1.519786] (msg_store) JobEnded: {'identifier': 'msg_store', 'rc': 1}
+[1.530443] (-) EventReactorShutdown: {}

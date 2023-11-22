@@ -1,0 +1,15 @@
+/usr/bin/ld: CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o: warning: relocation against `stdscr' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o: in function `main':
+demo_get_and_control.cpp:(.text+0x148f): undefined reference to `initscr'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x1496): undefined reference to `stdscr'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x14a3): undefined reference to `wtimeout'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x14a8): undefined reference to `noecho'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x14ad): undefined reference to `cbreak'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x1523): undefined reference to `stdscr'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x152b): undefined reference to `wgetch'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x2756): undefined reference to `endwin'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo_get_and_control.dir/build.make:183: demo_get_and_control] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/demo_get_and_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

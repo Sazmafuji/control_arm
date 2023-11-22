@@ -1,0 +1,138 @@
+[0.260s] Invoking command in '/home/sazma/ws_future/build/demo': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/tmr_ros2/demo -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/demo
+[0.313s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.368s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.439s] -- Detecting C compile features - done
+[0.443s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.528s] -- Detecting CXX compile features - done
+[0.532s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.739s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.860s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.932s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.940s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.952s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.083s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.088s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.194s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.226s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.287s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.303s] -- Looking for pthread.h
+[1.370s] -- Looking for pthread.h - found
+[1.370s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.438s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.439s] -- Found Threads: TRUE  
+[1.616s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.753s] -- Found tm_msgs: 1.1.2 (/home/sazma/ws_future/install/tm_msgs/share/tm_msgs/cmake)
+[1.800s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.952s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.953s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.953s] -- Configured cppcheck include dirs: /home/sazma/ws_future/src/tmr_ros2/demo/include
+[1.953s] -- Configured cppcheck exclude dirs and/or files: 
+[1.955s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.955s] -- Configured cpplint exclude dirs and/or files: 
+[1.956s] -- Added test 'lint_cmake' to check CMake code style
+[1.957s] -- Added test 'uncrustify' to check C / C++ code style
+[1.957s] -- Configured uncrustify additional arguments: 
+[1.958s] -- Added test 'xmllint' to check XML markup files
+[1.960s] -- Configuring done
+[2.009s] -- Generating done
+[2.012s] -- Build files have been written to: /home/sazma/ws_future/build/demo
+[2.022s] Invoked command in '/home/sazma/ws_future/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/tmr_ros2/demo -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/demo
+[2.024s] Invoking command in '/home/sazma/ws_future/build/demo': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/demo -- -j12 -l12
+[2.074s] [  7%] [32mBuilding CXX object CMakeFiles/demo_connect_tm.dir/src/demo_connect_tm.cpp.o[0m
+[2.075s] [ 10%] [32mBuilding CXX object CMakeFiles/demo_set_io.dir/src/demo_set_io.cpp.o[0m
+[2.075s] [ 14%] [32mBuilding CXX object CMakeFiles/demo_ask_item.dir/src/demo_ask_item.cpp.o[0m
+[2.077s] [ 17%] [32mBuilding CXX object CMakeFiles/demo_ask_sta.dir/src/demo_ask_sta.cpp.o[0m
+[2.079s] [  7%] [32mBuilding CXX object CMakeFiles/demo_send_script.dir/src/demo_send_script.cpp.o[0m
+[2.083s] [ 21%] [32mBuilding CXX object CMakeFiles/demo_set_event.dir/src/demo_set_event.cpp.o[0m
+[2.087s] [ 28%] [32mBuilding CXX object CMakeFiles/demo_set_positions.dir/src/demo_set_positions.cpp.o[0m
+[2.087s] [ 28%] [32mBuilding CXX object CMakeFiles/demo_write_item.dir/src/demo_write_item.cpp.o[0m
+[2.087s] [ 32%] [32mBuilding CXX object CMakeFiles/demo_get_feedback.dir/get_status_demo_src/demo_get_feedback.cpp.o[0m
+[2.097s] [ 39%] [32mBuilding CXX object CMakeFiles/demo_get_sct_response.dir/get_status_demo_src/demo_get_sct_response.cpp.o[0m
+[2.097s] [ 39%] [32mBuilding CXX object CMakeFiles/demo_get_torque_feedback.dir/get_status_demo_src/demo_get_torque_feedback.cpp.o[0m
+[2.100s] [ 42%] [32mBuilding CXX object CMakeFiles/demo_get_sta_response.dir/get_status_demo_src/demo_get_sta_response.cpp.o[0m
+[9.322s] [ 46%] [32m[1mLinking CXX executable demo_set_event[0m
+[9.738s] [ 46%] Built target demo_set_event
+[9.874s] [ 50%] [32mBuilding CXX object CMakeFiles/demo_get_svr_response.dir/get_status_demo_src/demo_get_svr_response.cpp.o[0m
+[11.382s] [ 53%] [32m[1mLinking CXX executable demo_connect_tm[0m
+[11.732s] [ 53%] Built target demo_connect_tm
+[11.836s] [ 57%] [32mBuilding CXX object CMakeFiles/demo_leave_listen_node.dir/src/demo_leave_listen_node.cpp.o[0m
+[12.227s] [ 60%] [32m[1mLinking CXX executable demo_set_io[0m
+[12.580s] [ 64%] [32m[1mLinking CXX executable demo_write_item[0m
+[12.611s] [ 67%] [32m[1mLinking CXX executable demo_ask_item[0m
+[12.970s] [ 67%] Built target demo_set_io
+[13.008s] [ 71%] [32m[1mLinking CXX executable demo_set_positions[0m
+[13.231s] [ 75%] [32m[1mLinking CXX executable demo_ask_sta[0m
+[13.353s] [ 75%] Built target demo_write_item
+[13.374s] [ 75%] Built target demo_set_positions
+[13.442s] [ 75%] Built target demo_ask_item
+[13.914s] [ 75%] Built target demo_ask_sta
+[14.451s] [ 78%] [32m[1mLinking CXX executable demo_send_script[0m
+[15.212s] [ 78%] Built target demo_send_script
+[19.999s] [ 82%] [32m[1mLinking CXX executable demo_leave_listen_node[0m
+[20.315s] [ 82%] Built target demo_leave_listen_node
+[25.010s] [ 85%] [32m[1mLinking CXX executable demo_get_svr_response[0m
+[25.187s] [ 89%] [32m[1mLinking CXX executable demo_get_sct_response[0m
+[25.758s] [ 92%] [32m[1mLinking CXX executable demo_get_feedback[0m
+[25.868s] [ 92%] Built target demo_get_sct_response
+[25.991s] [ 96%] [32m[1mLinking CXX executable demo_get_torque_feedback[0m
+[26.015s] [ 96%] Built target demo_get_svr_response
+[26.435s] [100%] [32m[1mLinking CXX executable demo_get_sta_response[0m
+[26.579s] [100%] Built target demo_get_torque_feedback
+[26.713s] [100%] Built target demo_get_feedback
+[26.958s] [100%] Built target demo_get_sta_response
+[26.969s] Invoked command in '/home/sazma/ws_future/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/demo -- -j12 -l12
+[27.025s] Invoking command in '/home/sazma/ws_future/build/demo': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/demo
+[27.031s] -- Install configuration: ""
+[27.032s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_send_script
+[27.032s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_send_script" to ""
+[27.032s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_ask_sta
+[27.033s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_ask_sta" to ""
+[27.033s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_connect_tm
+[27.034s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_connect_tm" to ""
+[27.034s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_set_event
+[27.034s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_set_event" to ""
+[27.034s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_set_io
+[27.035s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_set_io" to ""
+[27.035s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_set_positions
+[27.036s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_set_positions" to ""
+[27.036s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_write_item
+[27.037s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_write_item" to ""
+[27.037s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_ask_item
+[27.037s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_ask_item" to ""
+[27.037s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_get_feedback
+[27.041s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_get_feedback" to ""
+[27.041s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_get_torque_feedback
+[27.045s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_get_torque_feedback" to ""
+[27.045s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_get_sct_response
+[27.048s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_get_sct_response" to ""
+[27.048s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_get_sta_response
+[27.051s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_get_sta_response" to ""
+[27.051s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_get_svr_response
+[27.053s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_get_svr_response" to ""
+[27.054s] -- Installing: /home/sazma/ws_future/install/demo/lib/demo/demo_leave_listen_node
+[27.054s] -- Set runtime path of "/home/sazma/ws_future/install/demo/lib/demo/demo_leave_listen_node" to ""
+[27.054s] -- Installing: /home/sazma/ws_future/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[27.054s] -- Installing: /home/sazma/ws_future/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[27.055s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/environment/ament_prefix_path.sh
+[27.055s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/environment/ament_prefix_path.dsv
+[27.055s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/environment/path.sh
+[27.055s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/environment/path.dsv
+[27.055s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/local_setup.bash
+[27.055s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/local_setup.sh
+[27.055s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/local_setup.zsh
+[27.056s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/local_setup.dsv
+[27.056s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/package.dsv
+[27.056s] -- Installing: /home/sazma/ws_future/install/demo/share/ament_index/resource_index/packages/demo
+[27.056s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/cmake/demoConfig.cmake
+[27.056s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/cmake/demoConfig-version.cmake
+[27.056s] -- Installing: /home/sazma/ws_future/install/demo/share/demo/package.xml
+[27.058s] Invoked command in '/home/sazma/ws_future/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/demo

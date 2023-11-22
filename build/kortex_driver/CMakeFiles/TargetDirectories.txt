@@ -1,0 +1,10 @@
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/uninstall.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/kortex_driver_uninstall.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/kortex_driver.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/test.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/edit_cache.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/rebuild_cache.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/list_install_components.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/install.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/install/local.dir
+/home/sazma/ws_future/build/kortex_driver/CMakeFiles/install/strip.dir

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/mpu_6050/mpu_6050.egg-info/PKG-INFO
+../../build/mpu_6050/mpu_6050.egg-info/SOURCES.txt
+../../build/mpu_6050/mpu_6050.egg-info/dependency_links.txt
+../../build/mpu_6050/mpu_6050.egg-info/entry_points.txt
+../../build/mpu_6050/mpu_6050.egg-info/requires.txt
+../../build/mpu_6050/mpu_6050.egg-info/top_level.txt
+../../build/mpu_6050/mpu_6050.egg-info/zip-safe
+mpu_6050/__init__.py
+mpu_6050/publisher_node.py
+resource/mpu_6050
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

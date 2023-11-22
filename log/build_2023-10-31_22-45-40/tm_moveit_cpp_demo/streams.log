@@ -1,0 +1,107 @@
+[0.799s] Invoking command in '/home/sazma/ws_future/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/tm_moveit_cpp_demo
+[0.841s] -- The C compiler identification is GNU 11.4.0
+[0.897s] -- The CXX compiler identification is GNU 11.4.0
+[0.906s] -- Detecting C compiler ABI info
+[0.965s] -- Detecting C compiler ABI info - done
+[0.972s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.972s] -- Detecting C compile features
+[0.972s] -- Detecting C compile features - done
+[0.975s] -- Detecting CXX compiler ABI info
+[1.044s] -- Detecting CXX compiler ABI info - done
+[1.053s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.053s] -- Detecting CXX compile features
+[1.054s] -- Detecting CXX compile features - done
+[1.058s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.260s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.525s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.578s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.586s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.597s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.084s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.159s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.312s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.321s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.697s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.776s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.888s] -- Found Threads: TRUE  
+[4.106s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.161s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.258s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.439s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.439s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.320s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.963s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[6.279s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[7.095s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[7.217s] -- Configuring done
+[7.278s] -- Generating done
+[7.282s] -- Build files have been written to: /home/sazma/ws_future/build/tm_moveit_cpp_demo
+[7.310s] Invoked command in '/home/sazma/ws_future/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/tm_moveit_cpp_demo
+[7.321s] Invoking command in '/home/sazma/ws_future/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/tm_moveit_cpp_demo -- -j12 -l12
+[7.465s] [ 50%] [32mBuilding CXX object CMakeFiles/run_moveit_cpp.dir/src/run_moveit_cpp.cpp.o[0m
+[15.721s] [01m[K/home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo/src/run_moveit_cpp.cpp:134:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmoveit::planning_interface::MoveItCppPtr[m[K’ is deprecated: use moveit_cpp [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.721s]   134 |   moveit::planning_interface::MoveItCppPtr [01;35m[Kmoveit_cpp_[m[K;
+[15.721s]       |                                            [01;35m[K^~~~~~~~~~~[m[K
+[15.721s] In file included from [01m[K/opt/ros/humble/include/moveit/macros/class_forward.h:39[m[K,
+[15.722s]                  from [01m[K/opt/ros/humble/include/moveit/controller_manager/controller_manager.h:42[m[K,
+[15.722s]                  from [01m[K/opt/ros/humble/include/moveit/moveit_cpp/moveit_cpp.h:43[m[K,
+[15.722s]                  from [01m[K/home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo/src/run_moveit_cpp.cpp:47[m[K:
+[15.722s] [01m[K/opt/ros/humble/include/moveit/moveit_cpp/moveit_cpp.h:205:34:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.722s]   205 | [[deprecated("use moveit_cpp")]] [01;36m[KMOVEIT_DECLARE_PTR[m[K(MoveItCpp, moveit_cpp::MoveItCpp);
+[15.722s]       |                                  [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[15.724s] [01m[K/home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo/src/run_moveit_cpp.cpp:[m[K In member function ‘[01m[Kvoid MoveItCppDemo::run()[m[K’:
+[15.724s] [01m[K/home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo/src/run_moveit_cpp.cpp:67:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItCpp = class moveit_cpp::MoveItCpp[m[K’ is deprecated: use moveit_cpp [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.724s]    67 |  moveit_cpp_ = std::make_shared<moveit::planning_interface::[01;35m[KMoveItCpp[m[K>(node_);
+[15.724s]       |                                                             [01;35m[K^~~~~~~~~[m[K
+[15.725s] 
+[15.725s] In file included from [01m[K/home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo/src/run_moveit_cpp.cpp:47[m[K:
+[15.725s] [01m[K/opt/ros/humble/include/moveit/moveit_cpp/moveit_cpp.h:204:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.725s]   204 | using [01;36m[KMoveItCpp[m[K [[deprecated("use moveit_cpp")]] = moveit_cpp::MoveItCpp;
+[15.725s]       |       [01;36m[K^~~~~~~~~[m[K
+[15.725s] [01m[K/home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo/src/run_moveit_cpp.cpp:72:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing PlanningComponent = class moveit_cpp::PlanningComponent[m[K’ is deprecated: use moveit_cpp [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[15.725s]    72 |     moveit::planning_interface::PlanningComponent arm[01;35m[K([m[K"tmr_arm", moveit_cpp_);
+[15.725s]       |                                                      [01;35m[K^[m[K
+[15.725s] In file included from [01m[K/home/sazma/ws_future/src/tmr_ros2/tm_moveit_cpp_demo/src/run_moveit_cpp.cpp:48[m[K:
+[15.726s] [01m[K/opt/ros/humble/include/moveit/moveit_cpp/planning_component.h:205:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[15.726s]   205 | using [01;36m[KPlanningComponent[m[K [[deprecated("use moveit_cpp")]] = moveit_cpp::PlanningComponent;
+[15.726s]       |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[24.498s] [100%] [32m[1mLinking CXX executable run_moveit_cpp[0m
+[25.822s] [100%] Built target run_moveit_cpp
+[25.853s] Invoked command in '/home/sazma/ws_future/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/tm_moveit_cpp_demo -- -j12 -l12
+[26.210s] Invoking command in '/home/sazma/ws_future/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/tm_moveit_cpp_demo
+[26.253s] -- Install configuration: ""
+[26.254s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/lib/tm_moveit_cpp_demo/run_moveit_cpp
+[26.255s] -- Set runtime path of "/home/sazma/ws_future/install/tm_moveit_cpp_demo/lib/tm_moveit_cpp_demo/run_moveit_cpp" to ""
+[26.256s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch
+[26.256s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5-700_run_moveit_cpp.launch.py
+[26.256s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/run_moveit_cpp.rviz
+[26.257s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm14_run_moveit_cpp.launch.py
+[26.257s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/run_moveit_cpp.launch.py
+[26.258s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm12_run_moveit_cpp.launch.py
+[26.258s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm12x_run_moveit_cpp.launch.py
+[26.258s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm14x_run_moveit_cpp.launch.py
+[26.259s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5x-700_run_moveit_cpp.launch.py
+[26.259s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5x-900_run_moveit_cpp.launch.py
+[26.260s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5-900_run_moveit_cpp.launch.py
+[26.260s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config
+[26.260s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config/moveit_cpp.yaml
+[26.261s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config/controllers.yaml
+[26.261s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/ament_index/resource_index/package_run_dependencies/tm_moveit_cpp_demo
+[26.261s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/ament_index/resource_index/parent_prefix_path/tm_moveit_cpp_demo
+[26.262s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/ament_prefix_path.sh
+[26.262s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/ament_prefix_path.dsv
+[26.262s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/path.sh
+[26.262s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/path.dsv
+[26.262s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.bash
+[26.263s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.sh
+[26.263s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.zsh
+[26.263s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.dsv
+[26.263s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/package.dsv
+[26.263s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/ament_index/resource_index/packages/tm_moveit_cpp_demo
+[26.263s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/cmake/tm_moveit_cpp_demoConfig.cmake
+[26.264s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/cmake/tm_moveit_cpp_demoConfig-version.cmake
+[26.264s] -- Installing: /home/sazma/ws_future/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/package.xml
+[26.267s] Invoked command in '/home/sazma/ws_future/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/tm_moveit_cpp_demo

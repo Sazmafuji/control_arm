@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_store/msg/Mpu.msg
+// generated code does not contain a copyright notice
+
+
+module msg_store {
+  module msg {
+    struct Mpu {
+      double dx;
+
+      double dy;
+
+      double dz;
+
+      double dtx;
+
+      double dty;
+
+      double dtz;
+    };
+  };
+};

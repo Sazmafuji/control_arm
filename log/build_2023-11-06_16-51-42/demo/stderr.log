@@ -1,0 +1,9 @@
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:82:14:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   82 |         ch = [01;31m[K""[m[K;
+      |              [01;31m[K^~[m[K
+      |              [01;31m[K|[m[K
+      |              [01;31m[Kconst char*[m[K
+gmake[2]: *** [CMakeFiles/demo_keycontrol.dir/build.make:76: CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/demo_keycontrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

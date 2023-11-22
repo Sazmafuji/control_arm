@@ -1,0 +1,4 @@
+[ 50%] Built target moveit_ros_control_interface_gripper_plugin
+[ 50%] Built target moveit_ros_control_interface_trajectory_plugin
+[ 75%] Built target moveit_ros_control_interface_empty_plugin
+[100%] Built target moveit_ros_control_interface_plugin

@@ -1,0 +1,76 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tm_msgs: 1.1.2 (/home/sazma/ws_future/install/tm_msgs/share/tm_msgs/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/sazma/ws_future/src/tmr_ros2/demo/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sazma/ws_future/build/demo
+[35m[1mConsolidate compiler generated dependencies of target demo_connect_tm[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_get_and_control[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_keycontrol[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_ask_sta[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_keyboard_control[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_ask_item[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_send_script[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_set_event[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_set_io[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_set_positions[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_write_item[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_get_feedback[0m
+[ 52%] Built target demo_ask_item
+[ 35%] Built target demo_connect_tm
+[ 35%] [32mBuilding CXX object CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o[0m
+[ 35%] Built target demo_set_io
+[ 64%] Built target demo_keyboard_control
+[ 64%] Built target demo_send_script
+[ 64%] Built target demo_set_event
+[ 64%] Built target demo_keycontrol
+[ 67%] Built target demo_write_item
+[ 64%] Built target demo_ask_sta
+[ 64%] Built target demo_get_feedback
+[ 64%] Built target demo_set_positions
+[35m[1mConsolidate compiler generated dependencies of target demo_get_svr_response[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_get_torque_feedback[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_leave_listen_node[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_get_sct_response[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_get_sta_response[0m
+[ 85%] Built target demo_get_torque_feedback
+[ 85%] Built target demo_leave_listen_node
+[ 85%] Built target demo_get_svr_response
+[ 91%] Built target demo_get_sct_response
+[ 97%] Built target demo_get_sta_response
+[100%] [32m[1mLinking CXX executable demo_get_and_control[0m
+/usr/bin/ld: CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o: warning: relocation against `stdscr' in read-only section `.text'
+/usr/bin/ld: CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o: in function `main':
+demo_get_and_control.cpp:(.text+0x148f): undefined reference to `initscr'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x1496): undefined reference to `stdscr'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x14a3): undefined reference to `wtimeout'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x14a8): undefined reference to `noecho'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x14ad): undefined reference to `cbreak'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x1523): undefined reference to `stdscr'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x152b): undefined reference to `wgetch'
+/usr/bin/ld: demo_get_and_control.cpp:(.text+0x2756): undefined reference to `endwin'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo_get_and_control.dir/build.make:183: demo_get_and_control] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/demo_get_and_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

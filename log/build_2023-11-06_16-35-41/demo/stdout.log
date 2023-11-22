@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target demo_keycontrol[0m
+[35m[1mConsolidate compiler generated dependencies of target demo_keyboard_control[0m
+[  6%] Built target demo_connect_tm
+[ 18%] Built target demo_send_script
+[ 25%] Built target demo_set_event
+[ 25%] Built target demo_write_item
+[ 28%] [32mBuilding CXX object CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o[0m
+[ 34%] Built target demo_ask_sta
+[ 40%] Built target demo_set_io
+[ 46%] Built target demo_keyboard_control
+[ 53%] Built target demo_set_positions
+[ 59%] Built target demo_get_feedback
+[ 65%] Built target demo_ask_item
+[ 71%] Built target demo_get_torque_feedback
+[ 78%] Built target demo_get_svr_response
+[ 84%] Built target demo_get_sta_response
+[ 90%] Built target demo_leave_listen_node
+[ 96%] Built target demo_get_sct_response

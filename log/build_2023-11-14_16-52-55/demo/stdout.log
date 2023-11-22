@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 44%] Built target demo_keyboard_control
+[ 44%] Built target demo_set_event
+[ 44%] Built target demo_set_io
+[ 44%] Built target demo_keycontrol
+[ 44%] Built target demo_ask_sta
+[ 61%] Built target demo_write_item
+[ 61%] Built target demo_set_positions
+[ 61%] Built target demo_send_script
+[ 61%] Built target demo_get_and_control
+[ 61%] Built target demo_ask_item
+[ 61%] Built target demo_connect_tm
+[ 63%] [32mBuilding CXX object CMakeFiles/listener.dir/src/demo_subscriber.cpp.o[0m
+[ 75%] Built target demo_get_svr_response
+[ 75%] Built target demo_get_sta_response
+[ 83%] Built target demo_leave_listen_node
+[ 86%] Built target demo_get_sct_response
+[ 91%] Built target demo_get_feedback
+[ 97%] Built target demo_get_torque_feedback

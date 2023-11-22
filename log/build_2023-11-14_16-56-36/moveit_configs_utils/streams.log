@@ -1,0 +1,32 @@
+[2.760s] Invoking command in '/home/sazma/ws_future/src/moveit2/moveit_configs_utils': PYTHONPATH=/home/sazma/ws_future/build/moveit_configs_utils/prefix_override:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/sazma/ws_future/build/moveit_configs_utils/build install --record /home/sazma/ws_future/build/moveit_configs_utils/install.log --single-version-externally-managed
+[3.336s] running egg_info
+[3.336s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[3.336s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[3.336s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[3.337s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[3.337s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.337s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[3.337s] running build
+[3.337s] running build_py
+[3.337s] running install
+[3.337s] running install_lib
+[3.337s] running install_data
+[3.337s] running install_egg_info
+[3.337s] removing '/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.8.0-py3.10.egg-info' (and everything under it)
+[3.337s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.8.0-py3.10.egg-info
+[3.337s] running install_scripts
+[3.337s] /home/sazma/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.337s] !!
+[3.337s] 
+[3.337s]         ********************************************************************************
+[3.338s]         Please avoid running ``setup.py`` directly.
+[3.338s]         Instead, use pypa/build, pypa/installer or other
+[3.338s]         standards-based tools.
+[3.338s] 
+[3.338s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.338s]         ********************************************************************************
+[3.338s] 
+[3.338s] !!
+[3.338s]   self.initialize_options()
+[3.387s] writing list of installed files to '/home/sazma/ws_future/build/moveit_configs_utils/install.log'
+[3.774s] Invoked command in '/home/sazma/ws_future/src/moveit2/moveit_configs_utils' returned '0': PYTHONPATH=/home/sazma/ws_future/build/moveit_configs_utils/prefix_override:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/sazma/ws_future/build/moveit_configs_utils/build install --record /home/sazma/ws_future/build/moveit_configs_utils/install.log --single-version-externally-managed

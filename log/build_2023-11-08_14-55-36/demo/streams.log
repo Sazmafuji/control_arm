@@ -1,0 +1,77 @@
+[0.095s] Invoking command in '/home/sazma/ws_future/build/demo': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_future/install/moveit2_tutorials:/home/sazma/ws_future/install/moveit_visual_tools:/home/sazma/ws_future/install/rviz_visual_tools:/home/sazma/ws_future/install/moveit_task_constructor_visualization:/home/sazma/ws_future/install/moveit_task_constructor_demo:/home/sazma/ws_future/install/moveit_task_constructor_capabilities:/home/sazma/ws_future/install/moveit_task_constructor_core:/home/sazma/ws_future/install/rviz_marker_tools:/home/sazma/ws_future/install/pilz_industrial_motion_planner_testutils:/home/sazma/ws_future/install/moveit_runtime:/home/sazma/ws_future/install/moveit:/home/sazma/ws_future/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/moveit_planners:/home/sazma/ws_future/install/pilz_industrial_motion_planner:/home/sazma/ws_future/install/pick_ik:/home/sazma/ws_future/install/moveit_task_constructor_msgs:/home/sazma/ws_future/install/moveit_ros_control_interface:/home/sazma/ws_future/install/moveit_plugins:/home/sazma/ws_future/install/moveit_simple_controller_manager:/home/sazma/ws_future/install/moveit_setup_assistant:/home/sazma/ws_future/install/moveit_setup_srdf_plugins:/home/sazma/ws_future/install/moveit_setup_core_plugins:/home/sazma/ws_future/install/moveit_setup_controllers:/home/sazma/ws_future/install/moveit_setup_app_plugins:/home/sazma/ws_future/install/moveit_setup_framework:/home/sazma/ws_future/install/moveit_servo:/home/sazma/ws_future/install/moveit_ros:/home/sazma/ws_future/install/moveit_ros_visualization:/home/sazma/ws_future/install/moveit_py:/home/sazma/ws_future/install/moveit_hybrid_planning:/home/sazma/ws_future/install/moveit_ros_planning_interface:/home/sazma/ws_future/install/moveit_ros_benchmarks:/home/sazma/ws_future/install/moveit_ros_warehouse:/home/sazma/ws_future/install/moveit_ros_robot_interaction:/home/sazma/ws_future/install/moveit_ros_perception:/home/sazma/ws_future/install/moveit_resources_prbt_pg70_support:/home/sazma/ws_future/install/moveit_resources_prbt_moveit_config:/home/sazma/ws_future/install/moveit_ros_move_group:/home/sazma/ws_future/install/moveit_planners_ompl:/home/sazma/ws_future/install/moveit_kinematics:/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_resources_prbt_support:/home/sazma/ws_future/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sazma/ws_future/install/moveit_resources:/home/sazma/ws_future/install/moveit_resources_pr2_description:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/dual_arm_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_planners_stomp:/home/sazma/ws_future/install/moveit_planners_chomp:/home/sazma/ws_future/install/moveit_chomp_optimizer_adapter:/home/sazma/ws_future/install/chomp_motion_planner:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/kortex_bringup:/home/sazma/ws_future/install/kortex_driver:/home/sazma/ws_future/install/kortex_description:/home/sazma/ws_future/install/kortex_api:/home/sazma/tm5_900_ws/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/demo -- -j12 -l12
+[0.122s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.261s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.289s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.291s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.296s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.390s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.675s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.799s] -- Found tm_msgs: 1.1.2 (/home/sazma/ws_future/install/tm_msgs/share/tm_msgs/cmake)
+[0.847s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.043s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.044s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.045s] -- Configured cppcheck include dirs: /home/sazma/ws_future/src/tmr_ros2/demo/include
+[1.046s] -- Configured cppcheck exclude dirs and/or files: 
+[1.046s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.046s] -- Configured cpplint exclude dirs and/or files: 
+[1.047s] -- Added test 'lint_cmake' to check CMake code style
+[1.048s] -- Added test 'uncrustify' to check C / C++ code style
+[1.048s] -- Configured uncrustify additional arguments: 
+[1.048s] -- Added test 'xmllint' to check XML markup files
+[1.048s] -- Configuring done
+[1.101s] -- Generating done
+[1.103s] -- Build files have been written to: /home/sazma/ws_future/build/demo
+[1.138s] [35m[1mConsolidate compiler generated dependencies of target demo_set_positions[0m
+[1.140s] [35m[1mConsolidate compiler generated dependencies of target demo_ask_sta[0m
+[1.140s] [35m[1mConsolidate compiler generated dependencies of target demo_keyboard_control[0m
+[1.140s] [35m[1mConsolidate compiler generated dependencies of target demo_connect_tm[0m
+[1.140s] [35m[1mConsolidate compiler generated dependencies of target demo_send_script[0m
+[1.140s] [35m[1mConsolidate compiler generated dependencies of target demo_keycontrol[0m
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target demo_set_event[0m
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target demo_get_and_control[0m
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target demo_set_io[0m
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target demo_ask_item[0m
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target demo_write_item[0m
+[1.161s] [35m[1mConsolidate compiler generated dependencies of target demo_get_feedback[0m
+[1.163s] [  5%] Built target demo_set_positions
+[1.170s] [ 52%] Built target demo_keyboard_control
+[1.170s] [ 52%] Built target demo_set_event
+[1.170s] [ 52%] Built target demo_set_io
+[1.170s] [ 61%] Built target demo_connect_tm
+[1.170s] [ 61%] Built target demo_ask_item
+[1.171s] [ 61%] Built target demo_ask_sta
+[1.171s] [ 61%] Built target demo_write_item
+[1.171s] [ 61%] Built target demo_keycontrol
+[1.171s] [ 61%] Built target demo_send_script
+[1.171s] [ 52%] [32m[1mLinking CXX executable demo_get_and_control[0m
+[1.181s] [35m[1mConsolidate compiler generated dependencies of target demo_get_torque_feedback[0m
+[1.184s] [35m[1mConsolidate compiler generated dependencies of target demo_get_svr_response[0m
+[1.184s] [35m[1mConsolidate compiler generated dependencies of target demo_leave_listen_node[0m
+[1.184s] [35m[1mConsolidate compiler generated dependencies of target demo_get_sta_response[0m
+[1.188s] [ 67%] Built target demo_get_feedback
+[1.190s] [35m[1mConsolidate compiler generated dependencies of target demo_get_sct_response[0m
+[1.200s] [ 73%] Built target demo_get_torque_feedback
+[1.203s] [ 88%] Built target demo_get_svr_response
+[1.203s] [ 88%] Built target demo_get_sta_response
+[1.203s] [ 91%] Built target demo_leave_listen_node
+[1.209s] [ 97%] Built target demo_get_sct_response
+[1.312s] /usr/bin/ld: CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o: warning: relocation against `stdscr' in read-only section `.text'
+[1.322s] /usr/bin/ld: CMakeFiles/demo_get_and_control.dir/src/demo_get_and_control.cpp.o: in function `main':
+[1.322s] demo_get_and_control.cpp:(.text+0x148f): undefined reference to `initscr'
+[1.322s] /usr/bin/ld: demo_get_and_control.cpp:(.text+0x1496): undefined reference to `stdscr'
+[1.323s] /usr/bin/ld: demo_get_and_control.cpp:(.text+0x14a3): undefined reference to `wtimeout'
+[1.323s] /usr/bin/ld: demo_get_and_control.cpp:(.text+0x14a8): undefined reference to `noecho'
+[1.323s] /usr/bin/ld: demo_get_and_control.cpp:(.text+0x14ad): undefined reference to `cbreak'
+[1.323s] /usr/bin/ld: demo_get_and_control.cpp:(.text+0x1523): undefined reference to `stdscr'
+[1.323s] /usr/bin/ld: demo_get_and_control.cpp:(.text+0x152b): undefined reference to `wgetch'
+[1.323s] /usr/bin/ld: demo_get_and_control.cpp:(.text+0x2756): undefined reference to `endwin'
+[1.331s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[1.333s] collect2: error: ld returned 1 exit status
+[1.335s] gmake[2]: *** [CMakeFiles/demo_get_and_control.dir/build.make:183: demo_get_and_control] Error 1
+[1.335s] gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/demo_get_and_control.dir/all] Error 2
+[1.335s] gmake: *** [Makefile:146: all] Error 2
+[1.337s] Invoked command in '/home/sazma/ws_future/build/demo' returned '2': CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_future/install/moveit2_tutorials:/home/sazma/ws_future/install/moveit_visual_tools:/home/sazma/ws_future/install/rviz_visual_tools:/home/sazma/ws_future/install/moveit_task_constructor_visualization:/home/sazma/ws_future/install/moveit_task_constructor_demo:/home/sazma/ws_future/install/moveit_task_constructor_capabilities:/home/sazma/ws_future/install/moveit_task_constructor_core:/home/sazma/ws_future/install/rviz_marker_tools:/home/sazma/ws_future/install/pilz_industrial_motion_planner_testutils:/home/sazma/ws_future/install/moveit_runtime:/home/sazma/ws_future/install/moveit:/home/sazma/ws_future/install/kinova_gen3_7dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/kinova_gen3_6dof_robotiq_2f_85_moveit_config:/home/sazma/ws_future/install/moveit_planners:/home/sazma/ws_future/install/pilz_industrial_motion_planner:/home/sazma/ws_future/install/pick_ik:/home/sazma/ws_future/install/moveit_task_constructor_msgs:/home/sazma/ws_future/install/moveit_ros_control_interface:/home/sazma/ws_future/install/moveit_plugins:/home/sazma/ws_future/install/moveit_simple_controller_manager:/home/sazma/ws_future/install/moveit_setup_assistant:/home/sazma/ws_future/install/moveit_setup_srdf_plugins:/home/sazma/ws_future/install/moveit_setup_core_plugins:/home/sazma/ws_future/install/moveit_setup_controllers:/home/sazma/ws_future/install/moveit_setup_app_plugins:/home/sazma/ws_future/install/moveit_setup_framework:/home/sazma/ws_future/install/moveit_servo:/home/sazma/ws_future/install/moveit_ros:/home/sazma/ws_future/install/moveit_ros_visualization:/home/sazma/ws_future/install/moveit_py:/home/sazma/ws_future/install/moveit_hybrid_planning:/home/sazma/ws_future/install/moveit_ros_planning_interface:/home/sazma/ws_future/install/moveit_ros_benchmarks:/home/sazma/ws_future/install/moveit_ros_warehouse:/home/sazma/ws_future/install/moveit_ros_robot_interaction:/home/sazma/ws_future/install/moveit_ros_perception:/home/sazma/ws_future/install/moveit_resources_prbt_pg70_support:/home/sazma/ws_future/install/moveit_resources_prbt_moveit_config:/home/sazma/ws_future/install/moveit_ros_move_group:/home/sazma/ws_future/install/moveit_planners_ompl:/home/sazma/ws_future/install/moveit_kinematics:/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_resources_prbt_support:/home/sazma/ws_future/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/sazma/ws_future/install/moveit_resources:/home/sazma/ws_future/install/moveit_resources_pr2_description:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/dual_arm_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_planners_stomp:/home/sazma/ws_future/install/moveit_planners_chomp:/home/sazma/ws_future/install/moveit_chomp_optimizer_adapter:/home/sazma/ws_future/install/chomp_motion_planner:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/kortex_bringup:/home/sazma/ws_future/install/kortex_driver:/home/sazma/ws_future/install/kortex_description:/home/sazma/ws_future/install/kortex_api:/home/sazma/tm5_900_ws/install/demo_tmr5_900:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_future/install/moveit_configs_utils:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/demo -- -j12 -l12

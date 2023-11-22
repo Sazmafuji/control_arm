@@ -1,0 +1,38 @@
+[0.942s] Invoking command in '/home/sazma/ws_future/src/mpu_6050': PYTHONPATH=/home/sazma/ws_future/build/mpu_6050/prefix_override:/home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpu_6050 build --build-base /home/sazma/ws_future/build/mpu_6050/build install --record /home/sazma/ws_future/build/mpu_6050/install.log --single-version-externally-managed
+[1.164s] running egg_info
+[1.180s] writing ../../build/mpu_6050/mpu_6050.egg-info/PKG-INFO
+[1.180s] writing dependency_links to ../../build/mpu_6050/mpu_6050.egg-info/dependency_links.txt
+[1.180s] writing entry points to ../../build/mpu_6050/mpu_6050.egg-info/entry_points.txt
+[1.180s] writing requirements to ../../build/mpu_6050/mpu_6050.egg-info/requires.txt
+[1.181s] writing top-level names to ../../build/mpu_6050/mpu_6050.egg-info/top_level.txt
+[1.213s] reading manifest file '../../build/mpu_6050/mpu_6050.egg-info/SOURCES.txt'
+[1.213s] writing manifest file '../../build/mpu_6050/mpu_6050.egg-info/SOURCES.txt'
+[1.213s] running build
+[1.214s] running build_py
+[1.214s] copying mpu_6050/publisher_node.py -> /home/sazma/ws_future/build/mpu_6050/build/lib/mpu_6050
+[1.214s] running install
+[1.214s] /home/sazma/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.214s] !!
+[1.214s] 
+[1.214s]         ********************************************************************************
+[1.214s]         Please avoid running ``setup.py`` directly.
+[1.214s]         Instead, use pypa/build, pypa/installer or other
+[1.214s]         standards-based tools.
+[1.214s] 
+[1.214s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.215s]         ********************************************************************************
+[1.215s] 
+[1.215s] !!
+[1.215s]   self.initialize_options()
+[1.219s] running install_lib
+[1.235s] copying /home/sazma/ws_future/build/mpu_6050/build/lib/mpu_6050/publisher_node.py -> /home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages/mpu_6050
+[1.236s] byte-compiling /home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages/mpu_6050/publisher_node.py to publisher_node.cpython-310.pyc
+[1.237s] running install_data
+[1.253s] copying package.xml -> /home/sazma/ws_future/install/mpu_6050/share/mpu_6050
+[1.253s] running install_egg_info
+[1.270s] removing '/home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages/mpu_6050-0.0.0-py3.10.egg-info' (and everything under it)
+[1.270s] Copying ../../build/mpu_6050/mpu_6050.egg-info to /home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages/mpu_6050-0.0.0-py3.10.egg-info
+[1.271s] running install_scripts
+[1.420s] Installing publisher_node script to /home/sazma/ws_future/install/mpu_6050/lib/mpu_6050
+[1.420s] writing list of installed files to '/home/sazma/ws_future/build/mpu_6050/install.log'
+[1.441s] Invoked command in '/home/sazma/ws_future/src/mpu_6050' returned '0': PYTHONPATH=/home/sazma/ws_future/build/mpu_6050/prefix_override:/home/sazma/ws_future/install/mpu_6050/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mpu_6050 build --build-base /home/sazma/ws_future/build/mpu_6050/build install --record /home/sazma/ws_future/build/mpu_6050/install.log --single-version-externally-managed

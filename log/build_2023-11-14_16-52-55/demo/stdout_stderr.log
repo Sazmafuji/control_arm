@@ -1,0 +1,53 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 44%] Built target demo_keyboard_control
+[ 44%] Built target demo_set_event
+[ 44%] Built target demo_set_io
+[ 44%] Built target demo_keycontrol
+[ 44%] Built target demo_ask_sta
+[ 61%] Built target demo_write_item
+[ 61%] Built target demo_set_positions
+[ 61%] Built target demo_send_script
+[ 61%] Built target demo_get_and_control
+[ 61%] Built target demo_ask_item
+[ 61%] Built target demo_connect_tm
+[ 63%] [32mBuilding CXX object CMakeFiles/listener.dir/src/demo_subscriber.cpp.o[0m
+[ 75%] Built target demo_get_svr_response
+[ 75%] Built target demo_get_sta_response
+[ 83%] Built target demo_leave_listen_node
+[ 86%] Built target demo_get_sct_response
+[ 91%] Built target demo_get_feedback
+[ 97%] Built target demo_get_torque_feedback
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:2[m[K:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(const Mpu&) const[m[K’:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:21:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.msg_store::msg::Mpu_<std::allocator<void> >::dx[m[K’, which is of non-class type ‘[01m[Kconst _dx_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   21 |                     msg.dx.[01;31m[Kc_str[m[K(),
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:22:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.msg_store::msg::Mpu_<std::allocator<void> >::dy[m[K’, which is of non-class type ‘[01m[Kconst _dy_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   22 |                     msg.dy.[01;31m[Kc_str[m[K(),
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:23:28:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.msg_store::msg::Mpu_<std::allocator<void> >::dz[m[K’, which is of non-class type ‘[01m[Kconst _dz_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   23 |                     msg.dz.[01;31m[Kc_str[m[K(),
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:24:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.msg_store::msg::Mpu_<std::allocator<void> >::dtx[m[K’, which is of non-class type ‘[01m[Kconst _dtx_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   24 |                     msg.dtx.[01;31m[Kc_str[m[K(),
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:25:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.msg_store::msg::Mpu_<std::allocator<void> >::dty[m[K’, which is of non-class type ‘[01m[Kconst _dty_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   25 |                     msg.dty.[01;31m[Kc_str[m[K(),
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_subscriber.cpp:26:29:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmsg.msg_store::msg::Mpu_<std::allocator<void> >::dtz[m[K’, which is of non-class type ‘[01m[Kconst _dtz_type[m[K’ {aka ‘[01m[Kconst double[m[K’}
+   26 |                     msg.dtz.[01;31m[Kc_str[m[K()
+      |                             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/demo_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:171: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

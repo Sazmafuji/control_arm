@@ -1,0 +1,230 @@
+[0.544s] Invoking command in '/home/sazma/ws_future/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_configs_utils:/home/sazma/ws_future/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble LD_LIBRARY_PATH=/home/sazma/ws_future/install/moveit_ros_planning/lib:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor/lib:/home/sazma/ws_future/install/moveit_core/lib:/home/sazma/ws_future/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/sazma/ws_future/install/moveit_core/bin:${PATH} PYTHONPATH=/home/sazma/ws_future/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sazma/ws_future/src/moveit2/moveit_kinematics -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/moveit_kinematics
+[0.619s] -- The CXX compiler identification is GNU 11.4.0
+[0.629s] -- Detecting CXX compiler ABI info
+[0.712s] -- Detecting CXX compiler ABI info - done
+[0.721s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.721s] -- Detecting CXX compile features
+[0.722s] -- Detecting CXX compile features - done
+[0.723s] -- Found moveit_common: 2.8.0 (/home/sazma/ws_future/install/moveit_common/share/moveit_common/cmake)
+[0.729s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.957s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.166s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.172s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.172s] -- BACKWARD_HAS_UNWIND=1
+[1.172s] -- BACKWARD_HAS_BACKTRACE=0
+[1.172s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.172s] -- BACKWARD_HAS_DW=1
+[1.172s] -- BACKWARD_HAS_BFD=0
+[1.173s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.173s] [0mmoveit_kinematics: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.186s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[1.211s] -- Found generate_parameter_library: 0.3.6 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.220s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.281s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.291s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.305s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.448s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.454s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.558s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.582s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.629s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.645s] -- Looking for C++ include pthread.h
+[1.749s] -- Looking for C++ include pthread.h - found
+[1.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.876s] -- Found Threads: TRUE  
+[2.086s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.135s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[2.148s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.149s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.150s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.155s] -- Found moveit_core: 2.8.0 (/home/sazma/ws_future/install/moveit_core/share/moveit_core/cmake)
+[2.214s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.265s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.404s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.961s] -- Found moveit_ros_planning: 2.8.0 (/home/sazma/ws_future/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[3.966s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.486s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options system 
+[4.578s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[4.582s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[4.586s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[4.591s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.614s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.620s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.620s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.620s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.620s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.644s] -- Found PythonExtra: .so  
+[4.645s] -- Found moveit_resources_fanuc_description: 2.1.1 (/home/sazma/ws_future/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake)
+[4.646s] -- Found moveit_resources_fanuc_moveit_config: 2.1.1 (/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake)
+[4.647s] -- Found moveit_resources_panda_description: 2.1.1 (/home/sazma/ws_future/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+[4.648s] -- Found moveit_resources_panda_moveit_config: 2.1.1 (/home/sazma/ws_future/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+[4.652s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.689s] -- The C compiler identification is GNU 11.4.0
+[4.695s] -- Detecting C compiler ABI info
+[4.806s] -- Detecting C compiler ABI info - done
+[4.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.816s] -- Detecting C compile features
+[4.816s] -- Detecting C compile features - done
+[4.844s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.865s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[4.865s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.895s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.895s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.895s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.932s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.932s] -- Configured cppcheck include dirs: /home/sazma/ws_future/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/include;/home/sazma/ws_future/src/moveit2/moveit_kinematics/lma_kinematics_plugin/include;/home/sazma/ws_future/src/moveit2/moveit_kinematics/srv_kinematics_plugin/include;/home/sazma/ws_future/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include
+[4.932s] -- Configured cppcheck exclude dirs and/or files: 
+[4.935s] -- Added test 'lint_cmake' to check CMake code style
+[4.937s] -- Configuring done
+[5.099s] -- Generating done
+[5.103s] -- Build files have been written to: /home/sazma/ws_future/build/moveit_kinematics
+[5.127s] Invoked command in '/home/sazma/ws_future/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_configs_utils:/home/sazma/ws_future/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble LD_LIBRARY_PATH=/home/sazma/ws_future/install/moveit_ros_planning/lib:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor/lib:/home/sazma/ws_future/install/moveit_core/lib:/home/sazma/ws_future/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/sazma/ws_future/install/moveit_core/bin:${PATH} PYTHONPATH=/home/sazma/ws_future/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sazma/ws_future/src/moveit2/moveit_kinematics -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/moveit_kinematics
+[5.129s] Invoking command in '/home/sazma/ws_future/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_configs_utils:/home/sazma/ws_future/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble LD_LIBRARY_PATH=/home/sazma/ws_future/install/moveit_ros_planning/lib:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor/lib:/home/sazma/ws_future/install/moveit_core/lib:/home/sazma/ws_future/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/sazma/ws_future/install/moveit_core/bin:${PATH} PYTHONPATH=/home/sazma/ws_future/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sazma/ws_future/build/moveit_kinematics -- -j12 -l12
+[5.258s] [  4%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sazma/ws_future/build/moveit_kinematics/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters/include//cached_ik_kinematics_parameters.hpp /home/sazma/ws_future/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml `[0m
+[5.303s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sazma/ws_future/build/moveit_kinematics/kdl_kinematics_plugin/kdl_kinematics_parameters/include//kdl_kinematics_parameters.hpp /home/sazma/ws_future/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_parameters.yaml `[0m
+[5.310s] [ 13%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sazma/ws_future/build/moveit_kinematics/srv_kinematics_plugin/srv_kinematics_parameters/include//srv_kinematics_parameters.hpp /home/sazma/ws_future/src/moveit2/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_parameters.yaml `[0m
+[5.314s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sazma/ws_future/build/moveit_kinematics/lma_kinematics_plugin/lma_kinematics_parameters/include//lma_kinematics_parameters.hpp /home/sazma/ws_future/src/moveit2/moveit_kinematics/lma_kinematics_plugin/src/lma_kinematics_parameters.yaml `[0m
+[5.338s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.346s] [ 26%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.459s] [ 30%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[5.856s] [ 30%] Built target cached_ik_kinematics_parameters
+[5.969s] [ 30%] Built target srv_kinematics_parameters
+[6.043s] [ 30%] Built target lma_kinematics_parameters
+[6.158s] [ 34%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[6.185s] [ 34%] Built target kdl_kinematics_parameters
+[6.241s] [ 39%] [32mBuilding CXX object lma_kinematics_plugin/CMakeFiles/moveit_lma_kinematics_plugin.dir/src/lma_kinematics_plugin.cpp.o[0m
+[6.327s] [ 43%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[6.347s] [ 47%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[11.625s] [ 52%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[11.883s] [ 52%] Built target gtest_main
+[50.982s] [ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[51.107s] [ 56%] Built target gtest
+[52.411s] [ 60%] [32m[1mLinking CXX shared library libmoveit_lma_kinematics_plugin.so[0m
+[53.177s] [ 60%] Built target moveit_lma_kinematics_plugin
+[57.060s] [ 65%] [32m[1mLinking CXX shared library libmoveit_kdl_kinematics_plugin.so[0m
+[57.577s] [ 65%] Built target moveit_kdl_kinematics_plugin
+[60.974s] [ 69%] [32m[1mLinking CXX shared library libmoveit_srv_kinematics_plugin.so[0m
+[61.262s] [ 69%] Built target moveit_srv_kinematics_plugin
+[61.856s] [ 73%] [32m[1mLinking CXX executable benchmark_ik[0m
+[62.354s] [ 73%] Built target benchmark_ik
+[62.389s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_kinematics_plugin.dir/test_kinematics_plugin.cpp.o[0m
+[86.112s] [ 82%] [32m[1mLinking CXX executable test_kinematics_plugin[0m
+[86.511s] [ 82%] Built target test_kinematics_plugin
+[86.537s] [ 86%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[96.493s] [ 91%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_base.so[0m
+[96.699s] [ 91%] Built target moveit_cached_ik_kinematics_base
+[96.724s] [ 95%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_plugin.dir/src/cached_ik_kinematics_plugin.cpp.o[0m
+[105.791s] [100%] [32m[1mLinking CXX shared library libmoveit_cached_ik_kinematics_plugin.so[0m
+[105.969s] [100%] Built target moveit_cached_ik_kinematics_plugin
+[105.996s] Invoked command in '/home/sazma/ws_future/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_configs_utils:/home/sazma/ws_future/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble LD_LIBRARY_PATH=/home/sazma/ws_future/install/moveit_ros_planning/lib:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor/lib:/home/sazma/ws_future/install/moveit_core/lib:/home/sazma/ws_future/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/sazma/ws_future/install/moveit_core/bin:${PATH} PYTHONPATH=/home/sazma/ws_future/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sazma/ws_future/build/moveit_kinematics -- -j12 -l12
+[106.022s] Invoking command in '/home/sazma/ws_future/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_configs_utils:/home/sazma/ws_future/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble LD_LIBRARY_PATH=/home/sazma/ws_future/install/moveit_ros_planning/lib:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor/lib:/home/sazma/ws_future/install/moveit_core/lib:/home/sazma/ws_future/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/sazma/ws_future/install/moveit_core/bin:${PATH} PYTHONPATH=/home/sazma/ws_future/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sazma/ws_future/build/moveit_kinematics
+[106.030s] -- Install configuration: "Release"
+[106.030s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/kdl_kinematics_plugin_description.xml
+[106.030s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/lma_kinematics_plugin_description.xml
+[106.030s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/srv_kinematics_plugin_description.xml
+[106.030s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cached_ik_kinematics_plugin_description.xml
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/cached_ik_kinematics_parameters
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/cached_ik_kinematics_parameters/cached_ik_kinematics_parameters.hpp
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/GreedyKCenters.h
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighbors.h
+[106.031s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/detail/NearestNeighborsGNAT.h
+[106.032s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin.h
+[106.032s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_plugin-inl.h
+[106.032s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch
+[106.032s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/measure_ik_call_cost.launch
+[106.032s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/moveit_kinematics/auto_create_ikfast_moveit_plugin.sh
+[106.033s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/moveit_kinematics/create_ikfast_moveit_plugin.py
+[106.033s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/moveit_kinematics/round_collada_numbers.py
+[106.033s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates
+[106.033s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt
+[106.033s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast.h
+[106.033s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast_kinematics_parameters.yaml
+[106.034s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/ikfast_kinematics_plugin/templates/ikfast61_moveit_plugin_template.cpp
+[106.034s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/kdl_kinematics_parameters
+[106.034s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/kdl_kinematics_parameters/kdl_kinematics_parameters.hpp
+[106.034s] -- Up-to-date: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics
+[106.034s] -- Up-to-date: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit
+[106.034s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin
+[106.035s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/chainiksolver_vel_mimic_svd.hpp
+[106.035s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/joint_mimic.hpp
+[106.035s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/kdl_kinematics_plugin/kdl_kinematics_plugin.h
+[106.035s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/lma_kinematics_parameters
+[106.035s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/lma_kinematics_parameters/lma_kinematics_parameters.hpp
+[106.035s] -- Up-to-date: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics
+[106.035s] -- Up-to-date: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit
+[106.036s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/lma_kinematics_plugin
+[106.036s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/lma_kinematics_plugin/lma_kinematics_plugin.h
+[106.036s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/srv_kinematics_parameters
+[106.036s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/srv_kinematics_parameters/srv_kinematics_parameters.hpp
+[106.036s] -- Up-to-date: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics
+[106.036s] -- Up-to-date: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit
+[106.036s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin
+[106.036s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/include/moveit_kinematics/moveit/srv_kinematics_plugin/srv_kinematics_plugin.h
+[106.037s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config
+[106.037s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-singular-test.yaml
+[106.037s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-test.yaml
+[106.037s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-test.yaml
+[106.037s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/panda-lma-singular-test.yaml
+[106.037s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/panda-kdl-test.yaml
+[106.038s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-test.yaml
+[106.038s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-kdl-singular-test.yaml
+[106.038s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/config/fanuc-lma-singular-test.yaml
+[106.038s] -- Up-to-date: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch
+[106.038s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl.test.py
+[106.038s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma-singular.test.py
+[106.039s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma.test.py
+[106.039s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-lma-singular.test.py
+[106.039s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl-singular.test.py
+[106.039s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/panda-kdl-singular.test.py
+[106.039s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/panda-lma.test.py
+[106.039s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/launch/fanuc-kdl.test.py
+[106.039s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik
+[106.040s] -- Set runtime path of "/home/sazma/ws_future/install/moveit_kinematics/lib/moveit_kinematics/benchmark_ik" to ""
+[106.040s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin
+[106.041s] -- Set runtime path of "/home/sazma/ws_future/install/moveit_kinematics/lib/moveit_kinematics/test_kinematics_plugin" to ""
+[106.041s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.8.0
+[106.042s] -- Set runtime path of "/home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.8.0" to ""
+[106.042s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+[106.042s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.8.0
+[106.042s] -- Set runtime path of "/home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.8.0" to ""
+[106.042s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+[106.042s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+[106.043s] -- Set runtime path of "/home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so" to ""
+[106.043s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.8.0
+[106.043s] -- Set runtime path of "/home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.8.0" to ""
+[106.044s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so
+[106.044s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.8.0
+[106.044s] -- Set runtime path of "/home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.8.0" to ""
+[106.044s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+[106.044s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.sh
+[106.044s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/environment/library_path.dsv
+[106.045s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/ament_index/resource_index/package_run_dependencies/moveit_kinematics
+[106.045s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/ament_index/resource_index/parent_prefix_path/moveit_kinematics
+[106.046s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.sh
+[106.046s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/environment/ament_prefix_path.dsv
+[106.046s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/environment/path.sh
+[106.046s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/environment/path.dsv
+[106.046s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/local_setup.bash
+[106.046s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/local_setup.sh
+[106.047s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/local_setup.zsh
+[106.047s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/local_setup.dsv
+[106.047s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/package.dsv
+[106.047s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/ament_index/resource_index/packages/moveit_kinematics
+[106.047s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_kinematics
+[106.048s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport.cmake
+[106.048s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsTargetsExport-release.cmake
+[106.048s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cmake/ConfigExtras.cmake
+[106.048s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+[106.049s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.049s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig.cmake
+[106.049s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/cmake/moveit_kinematicsConfig-version.cmake
+[106.049s] -- Installing: /home/sazma/ws_future/install/moveit_kinematics/share/moveit_kinematics/package.xml
+[106.052s] Invoked command in '/home/sazma/ws_future/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_configs_utils:/home/sazma/ws_future/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sazma/ws_future/install/moveit_ros_planning:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor:/home/sazma/ws_future/install/moveit_core:/home/sazma/ws_future/install/moveit_resources_panda_moveit_config:/home/sazma/ws_future/install/moveit_resources_fanuc_moveit_config:/home/sazma/ws_future/install/moveit_resources_panda_description:/home/sazma/ws_future/install/moveit_resources_fanuc_description:/home/sazma/ws_future/install/moveit_msgs:/home/sazma/ws_future/install/moveit_common:/home/sazma/ws_future/install/ui_for_debug_and_demo:/home/sazma/ws_future/install/tm_driver:/home/sazma/ws_future/install/demo:/home/sazma/ws_future/install/tm_msgs:/home/sazma/ws_future/install/tm_moveit_cpp_demo:/home/sazma/ws_future/install/tm_moveit_config_tm5x-900:/home/sazma/ws_future/install/tm_moveit_config_tm5x-700:/home/sazma/ws_future/install/tm_moveit_config_tm5-900:/home/sazma/ws_future/install/tm_moveit_config_tm5-700:/home/sazma/ws_future/install/tm_moveit_config_tm14x:/home/sazma/ws_future/install/tm_moveit_config_tm14:/home/sazma/ws_future/install/tm_moveit_config_tm12x:/home/sazma/ws_future/install/tm_moveit_config_tm12:/home/sazma/ws_future/install/tm_description:/home/sazma/ws_future/install/custom_package:/home/sazma/ws_future/install/techman_robot_msgs:/home/sazma/ws_tm/install/ui_for_debug_and_demo:/home/sazma/ws_tm/install/tm_driver:/home/sazma/ws_tm/install/demo:/home/sazma/ws_tm/install/tm_msgs:/home/sazma/ws_tm/install/tm_moveit_cpp_demo:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5x-700:/home/sazma/ws_tm/install/tm_moveit_config_tm5-900:/home/sazma/ws_tm/install/tm_moveit_config_tm5-700:/home/sazma/ws_tm/install/tm_moveit_config_tm14x:/home/sazma/ws_tm/install/tm_moveit_config_tm14:/home/sazma/ws_tm/install/tm_moveit_config_tm12x:/home/sazma/ws_tm/install/tm_moveit_config_tm12:/home/sazma/ws_tm/install/tm_description:/home/sazma/ws_tm/install/custom_package:/home/sazma/ws_tm/install/techman_robot_msgs:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble LD_LIBRARY_PATH=/home/sazma/ws_future/install/moveit_ros_planning/lib:/home/sazma/ws_future/install/moveit_ros_occupancy_map_monitor/lib:/home/sazma/ws_future/install/moveit_core/lib:/home/sazma/ws_future/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/sazma/ws_future/install/moveit_core/bin:${PATH} PYTHONPATH=/home/sazma/ws_future/install/moveit_msgs/local/lib/python3.10/dist-packages:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sazma/ws_future/build/moveit_kinematics

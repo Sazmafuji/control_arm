@@ -1,0 +1,58 @@
+[1.845s] Invoking command in '/home/sazma/ws_future/src/moveit2/moveit_configs_utils': PYTHONPATH=/home/sazma/ws_future/build/moveit_configs_utils/prefix_override:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/sazma/ws_future/build/moveit_configs_utils/build install --record /home/sazma/ws_future/build/moveit_configs_utils/install.log --single-version-externally-managed
+[2.154s] running egg_info
+[2.154s] creating ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info
+[2.154s] writing ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/PKG-INFO
+[2.154s] writing dependency_links to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/dependency_links.txt
+[2.155s] writing entry points to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/entry_points.txt
+[2.155s] writing requirements to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/requires.txt
+[2.155s] writing top-level names to ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/top_level.txt
+[2.155s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[2.156s] reading manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[2.157s] writing manifest file '../../../build/moveit_configs_utils/moveit_configs_utils.egg-info/SOURCES.txt'
+[2.158s] running build
+[2.158s] running build_py
+[2.158s] creating /home/sazma/ws_future/build/moveit_configs_utils/build
+[2.158s] creating /home/sazma/ws_future/build/moveit_configs_utils/build/lib
+[2.158s] creating /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.158s] copying moveit_configs_utils/__init__.py -> /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.159s] copying moveit_configs_utils/launch_utils.py -> /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.159s] copying moveit_configs_utils/moveit_configs_builder.py -> /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.159s] copying moveit_configs_utils/launches.py -> /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils
+[2.159s] creating /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[2.159s] copying moveit_configs_utils/substitutions/__init__.py -> /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[2.159s] copying moveit_configs_utils/substitutions/xacro.py -> /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions
+[2.159s] running install
+[2.159s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.159s]   warnings.warn(
+[2.160s] running install_lib
+[2.160s] creating /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.160s] copying /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/__init__.py -> /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.160s] creating /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[2.160s] copying /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/__init__.py -> /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[2.160s] copying /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/substitutions/xacro.py -> /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions
+[2.160s] copying /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/launch_utils.py -> /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.160s] copying /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/moveit_configs_builder.py -> /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.161s] copying /home/sazma/ws_future/build/moveit_configs_utils/build/lib/moveit_configs_utils/launches.py -> /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils
+[2.161s] byte-compiling /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/__init__.py to __init__.cpython-310.pyc
+[2.161s] byte-compiling /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/__init__.py to __init__.cpython-310.pyc
+[2.161s] byte-compiling /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/substitutions/xacro.py to xacro.cpython-310.pyc
+[2.161s] byte-compiling /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launch_utils.py to launch_utils.cpython-310.pyc
+[2.162s] byte-compiling /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/moveit_configs_builder.py to moveit_configs_builder.cpython-310.pyc
+[2.164s] byte-compiling /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils/launches.py to launches.cpython-310.pyc
+[2.165s] running install_data
+[2.165s] creating /home/sazma/ws_future/install/moveit_configs_utils/share/ament_index
+[2.165s] creating /home/sazma/ws_future/install/moveit_configs_utils/share/ament_index/resource_index
+[2.165s] creating /home/sazma/ws_future/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[2.165s] copying resource/moveit_configs_utils -> /home/sazma/ws_future/install/moveit_configs_utils/share/ament_index/resource_index/packages
+[2.165s] copying package.xml -> /home/sazma/ws_future/install/moveit_configs_utils/share/moveit_configs_utils
+[2.166s] creating /home/sazma/ws_future/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.166s] copying default_configs/ompl_planning.yaml -> /home/sazma/ws_future/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.166s] copying default_configs/stomp_planning.yaml -> /home/sazma/ws_future/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.166s] copying default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/sazma/ws_future/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.166s] copying default_configs/ompl_defaults.yaml -> /home/sazma/ws_future/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.166s] copying default_configs/chomp_planning.yaml -> /home/sazma/ws_future/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+[2.166s] running install_egg_info
+[2.168s] Copying ../../../build/moveit_configs_utils/moveit_configs_utils.egg-info to /home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages/moveit_configs_utils-2.8.0-py3.10.egg-info
+[2.168s] running install_scripts
+[2.191s] writing list of installed files to '/home/sazma/ws_future/build/moveit_configs_utils/install.log'
+[2.373s] Invoked command in '/home/sazma/ws_future/src/moveit2/moveit_configs_utils' returned '0': PYTHONPATH=/home/sazma/ws_future/build/moveit_configs_utils/prefix_override:/home/sazma/ws_future/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/moveit_configs_utils build --build-base /home/sazma/ws_future/build/moveit_configs_utils/build install --record /home/sazma/ws_future/build/moveit_configs_utils/install.log --single-version-externally-managed

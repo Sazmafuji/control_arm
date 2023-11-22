@@ -1,0 +1,8 @@
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sazma/ws_future/src/tmr_ros2/demo/src/demo_keycontrol.cpp:80:18:[m[K [01;31m[Kerror: [m[K‘[01m[KKEY_SHIFT_L[m[K’ was not declared in this scope; did you mean ‘[01m[KKEY_SLEFT[m[K’?
+   80 |             case [01;31m[KKEY_SHIFT_L[m[K:
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+      |                  [32m[KKEY_SLEFT[m[K
+gmake[2]: *** [CMakeFiles/demo_keycontrol.dir/build.make:76: CMakeFiles/demo_keycontrol.dir/src/demo_keycontrol.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:219: CMakeFiles/demo_keycontrol.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,231 @@
+[0.372s] Invoking command in '/home/sazma/ws_future/build/techman_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/tmr_ros2/techman_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/techman_robot_msgs
+[1.067s] -- The C compiler identification is GNU 11.4.0
+[1.068s] -- The CXX compiler identification is GNU 11.4.0
+[1.068s] -- Detecting C compiler ABI info
+[1.068s] -- Detecting C compiler ABI info - done
+[1.068s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.068s] -- Detecting C compile features
+[1.068s] -- Detecting C compile features - done
+[1.068s] -- Detecting CXX compiler ABI info
+[1.068s] -- Detecting CXX compiler ABI info - done
+[1.068s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.068s] -- Detecting CXX compile features
+[1.068s] -- Detecting CXX compile features - done
+[1.069s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.069s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.069s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.069s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.069s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.070s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.092s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.133s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.437s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.921s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.925s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.954s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.955s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.955s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.955s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.975s] -- Found PythonExtra: .so  
+[2.034s] -- Configuring done
+[2.057s] -- Generating done
+[2.059s] -- Build files have been written to: /home/sazma/ws_future/build/techman_robot_msgs
+[2.427s] Invoked command in '/home/sazma/ws_future/build/techman_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake /home/sazma/ws_future/src/tmr_ros2/techman_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/sazma/ws_future/install/techman_robot_msgs
+[2.428s] Invoking command in '/home/sazma/ws_future/build/techman_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/techman_robot_msgs -- -j12 -l12
+[2.643s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.643s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.643s] [  6%] Built target ament_cmake_python_copy_techman_robot_msgs
+[3.019s] [  6%] Built target techman_robot_msgs__cpp
+[3.030s] running egg_info
+[3.031s] creating techman_robot_msgs.egg-info
+[3.031s] writing techman_robot_msgs.egg-info/PKG-INFO
+[3.031s] writing dependency_links to techman_robot_msgs.egg-info/dependency_links.txt
+[3.032s] writing top-level names to techman_robot_msgs.egg-info/top_level.txt
+[3.032s] writing manifest file 'techman_robot_msgs.egg-info/SOURCES.txt'
+[3.036s] reading manifest file 'techman_robot_msgs.egg-info/SOURCES.txt'
+[3.037s] writing manifest file 'techman_robot_msgs.egg-info/SOURCES.txt'
+[3.061s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.065s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.066s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.109s] [ 16%] Built target ament_cmake_python_build_techman_robot_msgs_egg
+[3.123s] [ 19%] [32mBuilding C object CMakeFiles/techman_robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/techman_robot_msgs/srv/detail/techman_robot_command__functions.c.o[0m
+[3.227s] [ 22%] [32m[1mLinking C shared library libtechman_robot_msgs__rosidl_generator_c.so[0m
+[3.295s] [ 22%] Built target techman_robot_msgs__rosidl_generator_c
+[3.321s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.338s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.356s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.572s] [ 35%] [32mBuilding CXX object CMakeFiles/techman_robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/techman_robot_msgs/srv/techman_robot_command__type_support.cpp.o[0m
+[3.652s] [ 38%] [32mBuilding CXX object CMakeFiles/techman_robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/techman_robot_msgs/srv/detail/techman_robot_command__type_support.cpp.o[0m
+[3.660s] [ 41%] [32mBuilding CXX object CMakeFiles/techman_robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/techman_robot_msgs/srv/detail/dds_fastrtps/techman_robot_command__type_support.cpp.o[0m
+[3.869s] [ 45%] [32mBuilding CXX object CMakeFiles/techman_robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/techman_robot_msgs/srv/detail/techman_robot_command__type_support_c.cpp.o[0m
+[3.904s] [ 48%] [32mBuilding CXX object CMakeFiles/techman_robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/techman_robot_msgs/srv/techman_robot_command__type_support.cpp.o[0m
+[3.975s] [ 51%] [32m[1mLinking CXX shared library libtechman_robot_msgs__rosidl_typesupport_c.so[0m
+[4.045s] [ 54%] [32mBuilding C object CMakeFiles/techman_robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/techman_robot_msgs/srv/detail/techman_robot_command__type_support.c.o[0m
+[4.045s] [ 54%] Built target techman_robot_msgs__rosidl_typesupport_c
+[4.097s] [ 58%] [32m[1mLinking C shared library libtechman_robot_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.147s] [ 61%] [32m[1mLinking CXX shared library libtechman_robot_msgs__rosidl_typesupport_cpp.so[0m
+[4.147s] [ 61%] Built target techman_robot_msgs__rosidl_typesupport_introspection_c
+[4.184s] [ 61%] Built target techman_robot_msgs__rosidl_typesupport_cpp
+[4.259s] [ 64%] [32m[1mLinking CXX shared library libtechman_robot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.327s] [ 64%] Built target techman_robot_msgs__rosidl_typesupport_introspection_cpp
+[4.328s] [ 67%] [32m[1mLinking CXX shared library libtechman_robot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.394s] [ 67%] Built target techman_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[4.414s] [ 70%] [32m[1mLinking CXX shared library libtechman_robot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.476s] [ 70%] Built target techman_robot_msgs__rosidl_typesupport_fastrtps_c
+[4.492s] [ 70%] Built target techman_robot_msgs
+[4.509s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.898s] [ 74%] Built target techman_robot_msgs__py
+[4.927s] [ 77%] [32mBuilding C object CMakeFiles/techman_robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/techman_robot_msgs/srv/_techman_robot_command_s.c.o[0m
+[5.072s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/techman_robot_msgs/libtechman_robot_msgs__rosidl_generator_py.so[0m
+[5.164s] [ 80%] Built target techman_robot_msgs__rosidl_generator_py
+[5.185s] [ 83%] [32mBuilding C object CMakeFiles/techman_robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/techman_robot_msgs/_techman_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.188s] [ 90%] [32mBuilding C object CMakeFiles/techman_robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/techman_robot_msgs/_techman_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.188s] [ 90%] [32mBuilding C object CMakeFiles/techman_robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/techman_robot_msgs/_techman_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.323s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.329s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.337s] [100%] [32m[1mLinking C shared library rosidl_generator_py/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.367s] [100%] Built target techman_robot_msgs__rosidl_typesupport_c__pyext
+[5.367s] [100%] Built target techman_robot_msgs__rosidl_typesupport_introspection_c__pyext
+[5.377s] [100%] Built target techman_robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.500s] Invoked command in '/home/sazma/ws_future/build/techman_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --build /home/sazma/ws_future/build/techman_robot_msgs -- -j12 -l12
+[5.618s] Invoking command in '/home/sazma/ws_future/build/techman_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/techman_robot_msgs
+[5.627s] -- Install configuration: ""
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/ament_index/resource_index/rosidl_interfaces/techman_robot_msgs
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__functions.c
+[5.628s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__struct.h
+[5.629s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__type_support.h
+[5.629s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__functions.h
+[5.629s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/techman_robot_command.h
+[5.629s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/library_path.sh
+[5.629s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/library_path.dsv
+[5.629s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_generator_c.so
+[5.629s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_generator_c.so" to ""
+[5.630s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs
+[5.630s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg
+[5.630s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.630s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv
+[5.630s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail
+[5.630s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__rosidl_typesupport_fastrtps_c.h
+[5.630s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_fastrtps_c.so
+[5.630s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.631s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs
+[5.631s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg
+[5.631s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.631s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv
+[5.631s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail
+[5.631s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__rosidl_typesupport_introspection_c.h
+[5.631s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__type_support.c
+[5.631s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_introspection_c.so
+[5.632s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.632s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_c.so
+[5.632s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_c.so" to ""
+[5.632s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs
+[5.632s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv
+[5.632s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail
+[5.632s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__builder.hpp
+[5.632s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__traits.hpp
+[5.633s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__struct.hpp
+[5.633s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/techman_robot_command.hpp
+[5.633s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs
+[5.633s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg
+[5.633s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.633s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv
+[5.633s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail
+[5.633s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__rosidl_typesupport_fastrtps_cpp.hpp
+[5.633s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/dds_fastrtps
+[5.634s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.634s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.634s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs
+[5.634s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv
+[5.634s] -- Up-to-date: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail
+[5.634s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__type_support.cpp
+[5.634s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/include/techman_robot_msgs/techman_robot_msgs/srv/detail/techman_robot_command__rosidl_typesupport_introspection_cpp.hpp
+[5.634s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_introspection_cpp.so
+[5.635s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.635s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_cpp.so
+[5.635s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_typesupport_cpp.so" to ""
+[5.635s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/pythonpath.sh
+[5.635s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/pythonpath.dsv
+[5.635s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs-1.0.0-py3.10.egg-info
+[5.635s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.635s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/__init__.py
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/_techman_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/libtechman_robot_msgs__rosidl_generator_py.so
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/_techman_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.636s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/_techman_robot_msgs_s.ep.rosidl_typesupport_c.c
+[5.637s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.637s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/srv
+[5.637s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/srv/__init__.py
+[5.637s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/srv/_techman_robot_command.py
+[5.637s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/srv/_techman_robot_command_s.c
+[5.637s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.691s] Listing '/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs'...
+[5.691s] Compiling '/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/__init__.py'...
+[5.692s] Listing '/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/srv'...
+[5.692s] Compiling '/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/srv/__init__.py'...
+[5.692s] Compiling '/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/srv/_techman_robot_command.py'...
+[5.700s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.700s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.700s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.701s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.701s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.701s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/local/lib/python3.10/dist-packages/techman_robot_msgs/techman_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.701s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_generator_py.so
+[5.702s] -- Set runtime path of "/home/sazma/ws_future/install/techman_robot_msgs/lib/libtechman_robot_msgs__rosidl_generator_py.so" to ""
+[5.702s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/srv/TechmanRobotCommand.idl
+[5.702s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/srv/TechmanRobotCommand.srv
+[5.702s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/srv/TechmanRobotCommand_Request.msg
+[5.702s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/srv/TechmanRobotCommand_Response.msg
+[5.702s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/ament_index/resource_index/package_run_dependencies/techman_robot_msgs
+[5.703s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/ament_index/resource_index/parent_prefix_path/techman_robot_msgs
+[5.703s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/ament_prefix_path.sh
+[5.703s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/ament_prefix_path.dsv
+[5.703s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/path.sh
+[5.703s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/environment/path.dsv
+[5.703s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/local_setup.bash
+[5.703s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/local_setup.sh
+[5.704s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/local_setup.zsh
+[5.704s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/local_setup.dsv
+[5.704s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/package.dsv
+[5.704s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/ament_index/resource_index/packages/techman_robot_msgs
+[5.704s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_generator_cExport.cmake
+[5.704s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.705s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.705s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.705s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.705s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.705s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_cExport.cmake
+[5.705s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.705s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_generator_cppExport.cmake
+[5.706s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.706s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.706s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.706s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.706s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_cppExport.cmake
+[5.706s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.707s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_generator_pyExport.cmake
+[5.707s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/export_techman_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.707s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/rosidl_cmake-extras.cmake
+[5.707s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.707s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.707s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.708s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.708s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.708s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.708s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgsConfig.cmake
+[5.708s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/cmake/techman_robot_msgsConfig-version.cmake
+[5.708s] -- Installing: /home/sazma/ws_future/install/techman_robot_msgs/share/techman_robot_msgs/package.xml
+[5.711s] Invoked command in '/home/sazma/ws_future/build/techman_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sazma/ws_future/install/tm_mod_urdf:/home/sazma/ws_future/install/tm_get_status:/home/sazma/ws_tm/install/tm_mod_urdf:/home/sazma/ws_tm/install/tm_get_status:/opt/ros/humble /usr/bin/cmake --install /home/sazma/ws_future/build/techman_robot_msgs

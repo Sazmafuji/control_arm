@@ -1,0 +1,10 @@
+線要插對地方
+
+ros2 run tm_driver tm_driver robot_ip:=192.168.10.5
+ros2 run demo demo_send_script
+ros2 run demo demo_keycontrol
+
+
+publisher
+ros2 run MPU_6050 publisher_node
+

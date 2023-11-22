@@ -1,0 +1,17 @@
+[ 44%] Built target demo_ask_item
+[ 44%] Built target demo_set_io
+[ 32%] [32m[1mLinking CXX executable demo_get_and_control[0m
+[ 67%] Built target demo_connect_tm
+[ 67%] Built target demo_set_event
+[ 67%] Built target demo_send_script
+[ 67%] Built target demo_set_positions
+[ 67%] Built target demo_keycontrol
+[ 67%] Built target demo_write_item
+[ 67%] Built target demo_get_feedback
+[ 67%] Built target demo_keyboard_control
+[ 67%] Built target demo_ask_sta
+[ 91%] Built target demo_get_sct_response
+[ 91%] Built target demo_leave_listen_node
+[ 91%] Built target demo_get_svr_response
+[ 91%] Built target demo_get_torque_feedback
+[ 97%] Built target demo_get_sta_response
